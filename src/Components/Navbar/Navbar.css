@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 30px ;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap:50px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.navbar h1{
+    
+    height: 60px;
+    
+    background: linear-gradient(270deg,#DA7C25 0.36%,#8f09b4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+.nav-connect{
+    padding: 15px 25px;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#DA7C25 0.36%,#B923E1);
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    gap:20px;
+    transition: 0.5s;
+}
+
+.nav-connect button{
+    border-radius: 30px;
+    background-color: rgb(252, 253, 148);
+    border: none;
+    outline: none;
+    border:  2px solid #DA7C25;
+  
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
+}

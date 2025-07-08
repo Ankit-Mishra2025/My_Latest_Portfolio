@@ -1,0 +1,100 @@
+.hero{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap:60px;
+}
+
+.left_hero{
+    margin-top: 130px;
+    width: 50%;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+     transition: 2s;
+     cursor: pointer;
+}
+
+.left_hero h1 span{
+     background: linear-gradient(270deg,#DA7C25 0.36%,#B923E1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    
+}
+
+
+
+.right_hero{
+     width: 50%;
+    display: flex ;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.right_hero img{
+    margin-top: 125px;
+    height: 450px;
+    width: 450px;
+    border-radius: 160px;
+}
+
+.hero h1{
+font-size: 60px;
+font-weight: 600;
+
+}
+
+.hero p{
+
+    line-height: 40px;
+    font-size:22px ;
+}
+
+.hero_action{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    font-size: 21px;
+    margin-top: 50px;
+    font-weight: 500;
+    margin-left: 20px;
+
+}
+
+.hero_connect{
+    padding: 20px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+ background: linear-gradient(270deg,#DA7C25 0.36%,#B923E1 100%);
+ font-size: 18px;
+ cursor: pointer;
+ transition:0.5s;
+}
+
+.hero_connect:hover{
+    transform: scale(1.05);
+    border: 2px solid white;
+}
+
+
+.hero_resume{
+     padding: 20px 45px;
+    border-radius: 50px;
+    cursor: pointer;
+ background: linear-gradient(270deg,#DA7C25 0.36%,#B923E1 100%);
+ font-size: 18px;
+ cursor: pointer;
+ transition:0.5s;
+ border: 2px solid white;
+}
+
+.hero_resume:hover{
+    transform: scale(1.05);
+    background: transparent;
+    border: 2px solid  #B923E1;
+}
