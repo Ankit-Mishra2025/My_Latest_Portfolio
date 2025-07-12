@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
 import About from './Components/About/About'
 import Service from './Components/Projects/Project'
+import Certificate from './Components/Certifications/Certificate'
 
 
 const App = () => {
@@ -12,7 +13,7 @@ const App = () => {
       <Hero/>
       <About/>
       <Service/>
-      
+      <Certificate/>
     </div>
   )
 }

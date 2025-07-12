@@ -2,14 +2,31 @@ import React from "react";
 import "./Hero.css";
 import Pic from "../../assets/pic.png";
 import { motion } from "framer-motion";  // ✅ Correct import
+// import ReactTypingEffect from "react-typing-effect";
+import { Typewriter } from "react-simple-typewriter";
+
 
 const Hero = () => {
   return (
     <div className="hero">
       <div className="left_hero">
-        <h1>
-          <span>I'm Ankit Mishra,</span> Frontend developer
-        </h1>
+      <h1>
+  <span>I'm Ankit Mishra,</span>
+  <br/>
+  <Typewriter
+              words={["  WEB DEVELOPER...", "Front-End Developer"  , "FREELANCER..."]}
+              loop={0}
+              cursor
+              cursorStyle="|"
+              typeSpeed={80}
+              deleteSpeed={30}
+              delaySpeed={1000}
+            />
+
+ 
+              
+
+</h1>
         <p>
           I am a frontend developer from Ghaziabad, just completed my Diploma in
           Information Technology and learning full stack development

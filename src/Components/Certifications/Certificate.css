@@ -1,0 +1,46 @@
+.certificates-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+    margin: 80px  100px;
+   
+   
+}
+
+.title h1{
+   text-align: center;
+   font-size: 55px;
+    background: linear-gradient(264deg,#DA7C25 20.09%,#B923E1 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0px  30px;
+}
+
+.allCertficate{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   gap:30px;
+}
+
+
+.certificates{
+  display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap:8px;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+    padding: 10px 15px ;
+}
+   
+
+
+.certificates h3{
+    font-size: 16px;
+    font-weight: 400;
+}
