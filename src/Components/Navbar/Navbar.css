@@ -1,19 +1,32 @@
 .navbar{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin:20px 30px ;
+    gap:65px;
+   
 }
 
 .nav-menu{
+  
     display: flex;
     align-items: center;
     list-style-type: none;
     gap:50px;
     font-size: 20px;
-    padding: 5px;
+    padding: 15px 20px;
+    box-shadow: 5px 5px 10px #c70505, 5px 5px 2px green;
+    border-radius: 50px;
+    background-color:#000000;
+    transition: 0.3s;
+
 }
 
+.nav-menu:hover{
+padding: 16px 22px;
+transform: scale3d(1.12,1,1);
+}
 .navbar h1{
     
     height: 60px;
@@ -27,7 +40,9 @@
 }
 
 .nav-connect{
-    padding: 15px 25px;
+
+    
+    padding: 10px 12px;
     border-radius: 50px;
     background: linear-gradient(270deg,#DA7C25 0.36%,#B923E1);
     font-size: 18px;

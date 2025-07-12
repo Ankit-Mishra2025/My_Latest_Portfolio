@@ -28,11 +28,12 @@ background-color: aliceblue;
     display: flex;
     justify-content: space-between;
     gap:80px;
+    
 }
 
 .about-left img{
     height: 400px;
-    width: 250px;
+    width: 280px;
     border-radius: 20px;
 }
 

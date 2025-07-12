@@ -8,12 +8,12 @@ import Linkedin from '../../assets/linkedin.svg'
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <h1>Ankit@</h1>
+        <h1>@Ankit</h1>
         
         <ul className='nav-menu'>
 <li>Home</li>
 <li>About Me</li>
-<li>Services</li>
+
 <li>Projects</li>
 
 <li>Certifications</li>
