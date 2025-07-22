@@ -4,13 +4,13 @@
     align-items: center;
     flex-direction: column;
     gap:50px;
-    margin: 80px  100px;
+    margin: 80px;
     
 
 }
 
 .projects-title h1{
-    font-size: 55px;
+    font-size: 50px;
     background: linear-gradient(264deg,#DA7C25 -5.09%,#B923E1 106.28%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -21,9 +21,7 @@
 .projects-container{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr ;
-gap:30px;
-/* flex-wrap: wrap; */
-
+gap:15px;
 
 }
 
@@ -31,8 +29,8 @@ gap:30px;
 .project-format{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    gap:8px;
+ 
+    
     border: 1px solid white;
     border-radius: 10px;
     transition: 0.4s;
@@ -45,7 +43,7 @@ gap:30px;
     font-weight: 600;
 }
 .project-format h2{
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 800;
     background: linear-gradient(270deg,#DA7C25 50%,#B923E1 106.28%);
     background-clip: text;
@@ -55,9 +53,9 @@ gap:30px;
 }
 
 .project-format img{
-  height: 200px;
-  width: 380px;
-  border-radius: 8px;
+  height: 180px;
+  width: 100%;
+  border-radius: 10px;
   object-fit:fill;
   margin: auto;
   margin-top: 0%;
@@ -92,7 +90,8 @@ font-weight: 500;
 
 .explore-btn{
     display: flex;
-    gap:55px
+    gap:55px;
+    margin-top: 10px;
     
 }
 

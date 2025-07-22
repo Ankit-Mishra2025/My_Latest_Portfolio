@@ -1,7 +1,10 @@
+import responsive from '../assets/Responsive.png'
+
 const certificate=[{
     s_no:"1",
-    s_img:"",
-    s_des:"In this certifications i have done 5 projects and learn deep dive in about HTML and CSS and Responsive design"
+    s_img:responsive,
+    s_name:"Responsive Web Design",
+    s_des:" I have complete this certification from freeCode Camp. In this certifications i have done 5 projects and learn deep dive in about HTML and CSS and Responsive design"
 },
 
     {

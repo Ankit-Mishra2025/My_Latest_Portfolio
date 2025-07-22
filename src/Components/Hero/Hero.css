@@ -31,28 +31,27 @@
 .right_hero{
      width: 50%;
     display: flex ;
-
     align-items: center;
     justify-content: center;
 }
 
 .right_hero img{
     margin-top: 125px;
-    height: 450px;
-    width: 450px;
-    border-radius: 160px;
+    height: 430px;
+    width: 430px;
+    border-radius: 130px;
 }
 
 .hero h1{
-font-size: 60px;
+font-size: 50px;
 font-weight: 600;
-
+margin-left: 0px;
 }
 
 .hero p{
 
     line-height: 40px;
-    font-size:22px ;
+    font-size:17px ;
 }
 
 .hero_action{
