@@ -128,3 +128,41 @@ border-radius: 5px;
 background:rgb(7, 31, 52);
 border: 2px solid purple;
 }
+
+@media (max-width:770px) {
+    .contact-title h1{
+        font-size: 40px;
+        min-width: 200px;
+    }
+
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+
+
+    .contact-left{
+        width: 100%;
+    }
+    .contact-left img{
+height: 200px;
+width: 300px;
+transition: 0.5s;
+border-radius: 10px;
+min-width: 250px;
+}
+
+.contact-left h1{
+    font-size: 25px;
+width: 350px;
+min-width:300px
+}
+
+.contact-right{
+    width:45vw;
+    min-width:300px;
+}
+
+}

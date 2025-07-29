@@ -51,10 +51,10 @@ const Contact = () => {
 
 <motion.div
 className="contact-left"
- initial={{x:-100,y:-50,opacity:0}}
+ initial={{x:-50,opacity:1}}
         whileInView={{x:0,y:0,opacity:1}}
         transition={{duration:1,ease:easeOut}}
-        viewport={{once:false,amount:0.8}}
+        viewport={{once:false,amount:0.2}}
 >
 
     

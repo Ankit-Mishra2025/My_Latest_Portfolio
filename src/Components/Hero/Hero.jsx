@@ -41,12 +41,22 @@ const Hero = () => {
         </p>
         <div className="hero_action">
           <div className="hero_connect">
-            <AnchorLink offset={50} href="#contact" class="anchorLink">
+            <AnchorLink offset={50} href="#contact" class="connectLink">
               Connect with me
             </AnchorLink>
           </div>
-          <div className="hero_resume">My Resume</div>
+          
+
+ <div className="hero_resume">
+   
+<a href="./AMD resume.pdf" target="_blank" > My Resume</a>
+
+  </div>
+         
+         
         </div>
+        
+         
      
 
       </motion.div>

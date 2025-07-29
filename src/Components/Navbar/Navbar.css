@@ -1,155 +1,134 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap:65px;
-    position: sticky;
-    z-index: 1;
-    top:0%;
-    width: 100%;
-background: #090923e1;
-  backdrop-filter: blur(80px);
-  -webkit-backdrop-filter: blur(500px);
-  padding: 5px;
-   transition: 0.3s;
-   opacity: 0.5;
+/* .navbar{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:50px;
+  position:sticky;
+  top:0;
+  z-index:-1;
+background-color: red;
+} */
 
-   
-}
 
-.navbar:hover{
-     box-shadow: 2px 0.3px 5px rgba(4, 4, 176, 0.548);
-     opacity: 0.5;
-     background: linear-gradient(135deg, #000000, rgba(2, 2, 53, 0.979));
-}
-
-.nav-menu{
-  
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    gap:50px;
-    font-size: 18px;
-    padding: 10px 20px;
-   color: aliceblue;
-    border-radius: 50px;
-    transition: 0.3s;
-    font-weight: 500;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;
+  position:sticky;
+  top: 0;
+  z-index: 999;
 
 }
 
-.openMenu{
-    height: 20px;
-    width: 20px;
-    background: transparent;
-    border-radius: 5px;
-}
-.closeMenu{
-     height: 20px;
-    width: 20px;
-    background: transparent;
-    border-radius: 5px;
+.nav-menu.desktop {
+  display: flex;
+  gap: 25px;
 }
 
-@media (max-width:770px){
-    .navbar{
-        margin: 20px 50px;
-    }
-
-   
-    .openMenu{
-        display: block;
-        position: fixed;
-        right:30px;
-    }
-
-
-    .closeMenu{
-display: block;
-position: relative;
-top:30px;
-width: 30px;
-left:250px
-
-    }
-
-    .nav-menu{
-        position: fixed;
-        flex-direction: column;
-align-items: center;
-top:0;
-gap:30px;
-background-color: rgb(11, 37, 59);
-backdrop-filter: blur(80px);
-
-height: 100%;
-z-index: 2;
-transition: right 0.5s;
-right:-300px;
-
-    }
+.menu-btn {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none;
+  transition: 0.3s;
 }
 
-
-
-
-
-.navbar h1{
-    
-    height: 60px;
-    
-    background: linear-gradient(270deg,#DA7C25 0.36%,#8f09b4);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 30px;
-    border-radius: 30px;
+/* Sidebar for mobile */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 250px;
+  height: 100vh;
+  background:rgba(6, 48, 84, 0.61);
+  backdrop-filter: blur(15px);
+  color: white;
+  padding: 60px 20px;
+  transition: left 0.5s ease;
+  z-index: 998;
 }
 
-.nav-connect{
+.side-menu.show {
+right: 0;
+}
 
-    
-    padding: 10px 8px;
-    border-radius: 50px;
-    /* background: linear-gradient(270deg,#DA7C25 0.36%,#B923E1); */
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    gap:10px;
-    transition: 0.5s;
-    margin-right: 30px;
-    justify-content: space-evenly;
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-menu li {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-menu.desktop {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+}
+
+.navbar:hover {
+  box-shadow: 2px 0.3px 5px rgba(4, 4, 176, 0.548);
+  opacity: 0.5;
+  background: linear-gradient(135deg, #000000, rgba(2, 2, 53, 0.979));
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 50px;
+  font-size: 17px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 50px;
+  transition: 0.3s;
+  font-weight: 400;
 }
 
 
-.nav-connect button img{
-    color: white;
-}
 
-.nav-connect button{
-    border-radius: 30px;
-    /* background-color:rgb(255, 0, 0); */
-    border: none;
-    outline: none;
-    border:  2px solid #0887a4;
-    box-shadow: 2px 0.5px 2px  blue;
-  
-}
-
-.nav-connect:hover{
-    transform: scale(1.05);
-}
-
-.nav-menu li{
-    display: flex;
-    flex-direction: column;
-    gap:5px;
-    cursor: pointer;
-
+.navbar h1 {
+  height: 60px;
+  background: linear-gradient(270deg, #da7c25 0.36%, #8f09b4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  border-radius: 30px;
+ margin-left: 40px;
 }
 
 
-.anchorLink{
-    text-decoration: none;
-    color: white;
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
 }
+
+.anchorLink {
+  text-decoration: none;
+  color:#da7c25;
+}
+
+
+.side-menu 
+.navbar button{
+  display: none;
+}
+
+
+
+ 

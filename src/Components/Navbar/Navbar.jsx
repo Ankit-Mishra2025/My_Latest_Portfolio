@@ -1,71 +1,108 @@
-import React from "react";
 import "./Navbar.css";
-
-import git from "../../assets/git.svg";
-import Linkedin from "../../assets/linkedin.svg";
-import menu from '../../assets/menu.png'
-import closeMenu from '../../assets/closeMenu.png'
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false);
+
+  function handleNav() {
+    setNav(!nav);
+  }
+
   return (
     <>
+      {/* Top Navbar */}
       <motion.div
         className="navbar"
-        initial={{ x: 0, y: -100, opacity: 0 }} // right se aaye
-        animate={{ x: 0, y: 0, opacity: 1 }} // final position
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <h1>@Ankit</h1>
-<img src={menu} className="openMenu"/>
 
-        <ul className="nav-menu">
-          <img src={closeMenu} class="closeMenu"/>
+        <ul className="nav-menu desktop">
           <li>
-            <AnchorLink offset={50} href="#home" class="anchorLink">
+            <AnchorLink offset={50} href="#home" className="anchorLink">
               Home
             </AnchorLink>
           </li>
           <li>
-            <AnchorLink offset={50} href="#aboutMe" class="anchorLink">
+            <AnchorLink offset={50} href="#aboutMe" className="anchorLink">
               About Me
             </AnchorLink>
           </li>
 
+ <li>
+            <AnchorLink offset={50} href="#skills" className="anchorLink">
+              Skills
+            </AnchorLink>
+          </li>
+
           <li>
-            <AnchorLink offset={50} href="#projects" class="anchorLink">
+            <AnchorLink offset={50} href="#projects" className="anchorLink">
               Projects
             </AnchorLink>
           </li>
-
           <li>
-            <AnchorLink offset={50} href="#certificates" class="anchorLink">
+            <AnchorLink offset={50} href="#certificates" className="anchorLink">
               Certifications
             </AnchorLink>
           </li>
-
           <li>
-            <AnchorLink offset={50} href="#contact" class="anchorLink">
+            <AnchorLink offset={50} href="#contact" className="anchorLink">
               Contact
             </AnchorLink>
           </li>
         </ul>
 
-        {/* <div className="nav-connect">
-          <button>
-            <a href="https://github.com/Ankit-Mishra2025">
-              <img src={git} />
-            </a>
-          </button>
 
-          <button>
-            <a href="https://www.linkedin.com/in/ankit-mishra-7b3393310/">
-              <img src={Linkedin} />
-            </a>
-          </button>
-        </div> */}
+       
+        <button onClick={handleNav} className="menu-btn">
+          {!nav ? (
+            <i className="fa-solid fa-bars"></i>
+          ) : (
+            <i className="fa-solid fa-xmark"></i>
+          )}
+        </button>
       </motion.div>
+
+
+      {/* Sidebar Sliding Menu */}
+      <div className={`side-menu ${nav ? "show" : ""}`}>
+        <ul>
+          <li>
+            <AnchorLink offset={50} href="#home" onClick={handleNav} className="anchorLink">
+              Home
+            </AnchorLink>
+          </li>
+          <li>
+            <AnchorLink offset={50} href="#aboutMe" onClick={handleNav} className="anchorLink">
+              About Me
+            </AnchorLink>
+          </li>
+           <li>
+            <AnchorLink offset={50} href="#skills" className="anchorLink">
+              Skills
+            </AnchorLink>
+          </li>
+          <li>
+            <AnchorLink offset={50} href="#projects" onClick={handleNav} className="anchorLink">
+              Projects
+            </AnchorLink>
+          </li>
+          <li>
+            <AnchorLink offset={50} href="#certificates" onClick={handleNav} className="anchorLink">
+              Certifications
+            </AnchorLink>
+          </li>
+          <li>
+            <AnchorLink offset={50} href="#contact" onClick={handleNav} className="anchorLink">
+              Contact
+            </AnchorLink>
+          </li>
+        </ul>
+      </div>
     </>
   );
 };
