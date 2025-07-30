@@ -49,6 +49,9 @@ background-color: aliceblue;
     gap:20px;
 }
 
+.about-para p{
+    line-height: 35px;
+}
 .about-skills{
     display: flex;
     flex-direction: column;

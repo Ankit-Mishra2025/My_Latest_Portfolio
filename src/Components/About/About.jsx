@@ -40,14 +40,10 @@ const About = () => {
             viewport={{ once: false, amount: 0.2 }}
           >
             <p>
-              I am a fresher frontend developer with skills in HTML, CSS, JS,
-              and React.js. I have recently completed my Diploma from Government
-              College, Ghaziabad.
+             Currently, I am exploring the backend side of development to become a well-rounded MERN stack developer. I enjoy bringing creative ideas to life through clean code, smooth animations, and functional UI components. Alongside development,
+With each project, I aim to improve my problem-solving ability, write better code, and deliver a seamless user experience
             </p>
-            <p>
-              My passion for development is not only writing code but also
-              curating interactive, scalable web applications.
-            </p>
+           
           </motion.div>
 
           <div className="about-skills">

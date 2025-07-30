@@ -36,8 +36,7 @@ const Hero = () => {
           />
         </h1>
         <p>
-          I am a frontend developer from Ghaziabad, just completed my Diploma in
-          Information Technology and learning full stack development
+         I am a passionate Frontend Developer from Ghaziabad with a Diploma in Information Technology. I have recently completed my academic journey and am now actively expanding my skills in full-stack web development. 
         </p>
         <div className="hero_action">
           <div className="hero_connect">

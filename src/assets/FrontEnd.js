@@ -1,10 +1,10 @@
 
-import html from '../assets/html.png'
+import html from '../assets/html.svg'
 import css from '../assets/css.png'
-import js from '../assets/javascript.png'
-import ts from '../assets/tailwind.png'
+import js from '../assets/js.svg'
+import ts from '../assets/tailwind.svg'
 
-import react from '../assets/react.png'
+import react from '../assets/reactt.svg'
 import shadcn from '../assets/shadnc.png'
 import framer from '../assets/framer.png'
 import Api from '../assets/Api.png'

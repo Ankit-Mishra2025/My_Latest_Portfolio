@@ -54,7 +54,7 @@ border-radius: 10px;
 }
 
 .contact-left img:hover{
-    box-shadow: 5px 5px 20px rgb(2, 91, 169);
+    box-shadow: -5px -10px 50px rgb(2, 91, 169);
     transform: translateY(-5%);
     transform: scale(1.05);
 }
@@ -161,8 +161,39 @@ min-width:300px
 }
 
 .contact-right{
-    width:45vw;
+    width:35vw;
     min-width:300px;
+}
+
+.contact-right label{
+    color:#D8D8D8;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.contact-right input{
+    border: none;
+    width: 100%;
+    margin-right: 10px;
+padding: 6px;
+outline: none;
+background: #32323c;
+color: #a0a0a0;
+font-size: 16px;
+border-radius: 2px;
+
+}
+
+.contact-right textarea{
+  padding: 8px;
+    border: none;
+    background:#32323c ;
+    color:#a0a0a0;
+    font-size: 16px;
+    border-radius: 5px;
+    
+
 }
 
 }

@@ -5,12 +5,12 @@
   justify-content: space-between;
   gap: 60px;
   /* margin: 30px 40px; */
-box-shadow:0.5px 0.5px 15px rgb(179, 0, 0) ,2px -2px 10px rgb(0, 0, 158);
+
 border-radius: 10px;
 }
 
 .left_hero {
-  margin-top: 130px;
+  margin-top: 100px;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -20,6 +20,7 @@ border-radius: 10px;
   transition: 2s;
   cursor: pointer;
 }
+
 
 .left_hero h1 span {
   background: linear-gradient(270deg, #da7c25 0.36%, #b923e1 100%);
@@ -36,10 +37,11 @@ border-radius: 10px;
 }
 
 .right_hero img {
-  margin-top: 125px;
-  height: 430px;
-  width: 430px;
-  border-radius: 130px;
+ 
+  height: 400px;
+  width: 400px;
+border-radius: 180px;
+ margin-top: 50px;
 }
 
 .hero h1 {
@@ -49,7 +51,7 @@ border-radius: 10px;
 }
 
 .hero p {
-  line-height: 40px;
+  line-height: 35px;
   font-size: 17px;
 }
 
@@ -58,7 +60,7 @@ border-radius: 10px;
   align-items: center;
   gap: 45px;
   font-size: 21px;
-  margin-top: 50px;
+  margin-top: 40px;
   font-weight: 500;
   margin-left: 20px;
 }

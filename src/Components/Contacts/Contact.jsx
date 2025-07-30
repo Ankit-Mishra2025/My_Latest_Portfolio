@@ -15,6 +15,7 @@ const Contact = () => {
 
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
+
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -23,41 +24,33 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
+      alert("Form submitted successfully");
       console.log("Success", res);
-      alert("Form has been Submitted successfully")
     }
   };
 
   return (
     <>
       <div className="contact" id="contact">
-
         <motion.div
-        className="contact-title"
-        initial={{x:-50,y:-50,opacity:0}}
-        whileInView={{x:0,y:0,opacity:1}}
-        transition={{duration:1,ease:easeOut}}
-        viewport={{once:false,amount:0.8}}
+          className="contact-title"
+          initial={{ x: -50, y: -50, opacity: 0 }}
+          whileInView={{ x: 0, y: 0, opacity: 1 }}
+          transition={{ duration: 1, ease: easeOut }}
+          viewport={{ once: false, amount: 0.8 }}
         >
- <h1>Get in touch </h1>
+          <h1>Get in touch </h1>
           <p>Your Next Dev is One Click Away 🚀</p>
         </motion.div>
-       
-         
-       
 
         <div className="contact-section">
-
-
-<motion.div
-className="contact-left"
- initial={{x:-50,opacity:1}}
-        whileInView={{x:0,y:0,opacity:1}}
-        transition={{duration:1,ease:easeOut}}
-        viewport={{once:false,amount:0.2}}
->
-
-    
+          <motion.div
+            className="contact-left"
+            initial={{ x: -50, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: false, amount: 0.5 }}
+          >
             <img src={contact} />
             <h1>
               Your Next Dev is One Click Away
@@ -68,11 +61,7 @@ className="contact-left"
               I'm currently available to take on new projects, so feel free to
               connect and send me a message about anything..
             </p>
-          
-
-</motion.div>
-
-         
+          </motion.div>
 
           {/* <div className="contact-deatils">
     <div className="contact-detail">
@@ -89,18 +78,14 @@ className="contact-left"
     </div>
 </div> */}
 
-
-<motion.form
-className="contact-right"
-
-initial={{x:80,y:-50,opacity:0}}
-whileInView={{x:-10,y:50,opacity:1}}
-transition={{duration:1,ease:easeOut}}
-viewport={{once:false,amount:0.5}}
-
->
-
- <form onSubmit={onSubmit}>
+          <motion.form
+            className="contact-right"
+            onSubmit={onSubmit}
+            initial={{ x: 80, y: -50, opacity: 0 }}
+            whileInView={{ x: 0, y: 0, opacity: 1 }}
+            transition={{ duration: 1, ease: easeOut }}
+            viewport={{ once: false, amount: 0.5 }}
+          >
             <label htmlFor="">Your Name: </label>
             <input type="text" placeholder="Enter Your name" name="name" />
 
@@ -110,19 +95,13 @@ viewport={{once:false,amount:0.5}}
             <label htmlFor="">Your Message:</label>
             <textarea
               name="message"
-            
               placeholder="Enter your message"
             ></textarea>
 
             <button type="submit" className="contact-submit">
               Submit Now
             </button>
-          </form>
-
-
-</motion.form>
-
-         
+          </motion.form>
         </div>
       </div>
     </>
