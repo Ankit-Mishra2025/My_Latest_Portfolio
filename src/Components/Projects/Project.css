@@ -18,7 +18,7 @@
 .projects-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 15px;
+  gap: 25px;
 }
 
 .project-format {
@@ -128,7 +128,7 @@
 
 @media (max-width: 770px) {
   .projects-title h1 {
-    font-size: 50px;
+    font-size: 46px;
     text-align: center;
     min-width: 200px;
   }

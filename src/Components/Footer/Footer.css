@@ -31,6 +31,12 @@ hr {
   margin-top: 30px;
 }
 
+
+.quickLinks>ul{
+     display: flex;
+    gap:5px;
+    flex-direction: column;
+}
 .quickLinks li {
   list-style-type: none;
 }

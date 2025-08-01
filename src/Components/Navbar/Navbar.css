@@ -10,29 +10,25 @@
 background-color: red;
 } */
 
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
   width: 100%;
-  position:sticky;
+  position: sticky;
   top: 0px;
   z-index: 999;
   /* z-index: 1; */
   /* background-color:rgba(94, 3, 173, 0.114); */
-  background-color:rgba(1, 1, 135, 0.372);
+  background-color: rgba(1, 1, 135, 0.372);
   backdrop-filter: blur(10px);
-  
-
 }
 
 .nav-menu.desktop {
   display: flex;
   gap: 30px;
   margin-left: 60px;
-
 }
 
 .menu-btn {
@@ -52,8 +48,8 @@ background-color: red;
   right: -100%;
   width: 250px;
   height: 100vh;
-  background:rgba(6, 48, 84, 0.521);
- 
+  background: rgba(6, 48, 84, 0.521);
+
   backdrop-filter: blur(15px);
   color: white;
   padding: 60px 20px;
@@ -63,7 +59,7 @@ background-color: red;
 }
 
 .side-menu.show {
-right: 0;
+  right: 0;
 }
 
 .side-menu ul {
@@ -76,20 +72,20 @@ right: 0;
   font-size: 20px;
 }
 
-
-.modeBtn{
-margin-right: 50px;
-cursor: pointer;
-transition: 0.3s;
-
+.modeBtn {
+  margin-right: 60px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 20px;
+  border: none;
+  outline: none;
 }
 
-.modeBtn i{
-height: 10px;
-width: 20px;
-border-radius: 50px;
-font-size: 15px;
+.modeBtn i {
+  height: 10px;
+  width: 22px;
 
+  font-size: 18px;
 }
 /* Responsive */
 @media (max-width: 768px) {
@@ -97,13 +93,11 @@ font-size: 15px;
     display: none;
   }
   .menu-btn {
-    
     display: block;
   }
-  .modeBtn{
-  position: fixed;
-  right: -10px;
-   
+  .modeBtn {
+    position: fixed;
+    right: -10px;
   }
 }
 
@@ -126,8 +120,6 @@ font-size: 15px;
   font-weight: 400;
 }
 
-
-
 .navbar h1 {
   height: 60px;
   background: linear-gradient(270deg, #da7c25 0.36%, #8f09b4);
@@ -136,10 +128,8 @@ font-size: 15px;
   -webkit-text-fill-color: transparent;
   font-size: 30px;
   border-radius: 30px;
- margin-left: 18px;
+  margin-left: 18px;
 }
-
-
 
 .nav-menu li {
   display: flex;
@@ -150,12 +140,6 @@ font-size: 15px;
 
 .anchorLink {
   text-decoration: none;
-  color:#da7c25;
-  cursor:grabbing;
+  color: #da7c25;
+  cursor: grabbing;
 }
-
-
-
-
-
- 

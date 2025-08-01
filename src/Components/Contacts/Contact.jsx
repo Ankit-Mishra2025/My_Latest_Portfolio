@@ -99,7 +99,7 @@ const Contact = () => {
             ></textarea>
 
             <button type="submit" className="contact-submit">
-              Submit Now
+            <i class="fas fa-paper-plane"></i>  Submit Now
             </button>
           </motion.form>
         </div>

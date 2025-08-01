@@ -68,7 +68,7 @@ border-radius: 500px;
 }
 
 .hero_connect {
-  padding: 20px 35px;
+  padding: 15px 30px;
   border-radius: 50px;
   cursor: pointer;
   background: linear-gradient(270deg, #da7c25 0.36%, #b923e1 100%);
@@ -87,7 +87,7 @@ border-radius: 500px;
 }
 
 .hero_resume {
-  padding: 20px 45px;
+  padding: 15px 30px;
   border-radius: 50px;
   cursor: pointer;
   background: linear-gradient(270deg, #da7c25 0.36%, #b923e1 100%);

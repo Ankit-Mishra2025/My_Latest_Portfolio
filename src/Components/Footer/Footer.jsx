@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer">
           <div className="informatiion">
-            <h1>Ankit Mishra</h1>
+           <h1>Ankit Mishra</h1>
             <p>I am available to assist your project,feel free to contact me</p>
              <div className="links">
             <a href="https://github.com/Ankit-Mishra2025" target="

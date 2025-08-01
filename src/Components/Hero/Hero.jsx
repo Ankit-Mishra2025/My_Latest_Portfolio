@@ -42,14 +42,14 @@ const Hero = () => {
         <div className="hero_action">
           <div className="hero_connect">
             <AnchorLink offset={50} href="#contact" class="connectLink">
-              Connect with me
+              <i class="fas fa-paper-plane"></i> Get in Touch
             </AnchorLink>
           </div>
           
 
  <div className="hero_resume">
    
-<a href="./AMD resume.pdf" target="_blank" > My Resume</a>
+<a href="./AMD resume.pdf" target="_blank" > <i class="fas fa-file-download"></i> My Resume</a>
 
   </div>
          
