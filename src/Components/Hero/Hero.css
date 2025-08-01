@@ -140,7 +140,7 @@ border-radius: 500px;
 
   .hero_connect {
     margin-top: 45%;
-    padding: 8px 30px;
+    padding: 12px 30px;
     width: 45vw;
     min-width: 200px;
    align-items: center;
@@ -150,7 +150,7 @@ border-radius: 500px;
 
   .hero_resume {
     margin-top: 10%;
-    padding: 8px 30px;
+    padding: 12px 30px;
     width: 45vw;
     display: flex;
     align-items: center;

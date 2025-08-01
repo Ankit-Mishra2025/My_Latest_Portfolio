@@ -26,7 +26,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.2 }}
             whileHover={{
               scale: 1.08,
-              transition: { duration: 0.3},
+              transition: { duration: 0.3 },
             }}
           />
         </div>
@@ -40,10 +40,13 @@ const About = () => {
             viewport={{ once: false, amount: 0.2 }}
           >
             <p>
-             Currently, I am exploring the backend side of development to become a well-rounded MERN stack developer. I enjoy bringing creative ideas to life through clean code, smooth animations, and functional UI components. Alongside development,
-With each project, I aim to improve my problem-solving ability, write better code, and deliver a seamless user experience
+              Currently, I am exploring the backend side of development to
+              become a well-rounded MERN stack developer. I enjoy bringing
+              creative ideas to life through clean code, smooth animations, and
+              functional UI components. Alongside development, With each
+              project, I aim to improve my problem-solving ability, write better
+              code, and deliver a seamless user experience
             </p>
-           
           </motion.div>
 
           <div className="about-skills">
@@ -55,7 +58,7 @@ With each project, I aim to improve my problem-solving ability, write better cod
               viewport={{ once: false, amount: 0.2 }}
             >
               <p>HTML & CSS</p>
-              <hr style={{ width: "50%" }} />
+              <hr style={{ width: "70%" }} />
             </motion.div>
 
             <motion.div
@@ -66,7 +69,7 @@ With each project, I aim to improve my problem-solving ability, write better cod
               viewport={{ once: false, amount: 0.2 }}
             >
               <p>React JS</p>
-              <hr style={{ width: "70%" }} />
+              <hr style={{ width: "80%" }} />
             </motion.div>
 
             <motion.div
@@ -77,7 +80,7 @@ With each project, I aim to improve my problem-solving ability, write better cod
               viewport={{ once: false, amount: 0.2 }}
             >
               <p>Javascript</p>
-              <hr style={{ width: "60%" }} />
+              <hr style={{ width: "85%" }} />
             </motion.div>
 
             <motion.div
@@ -88,7 +91,18 @@ With each project, I aim to improve my problem-solving ability, write better cod
               viewport={{ once: false, amount: 0.2 }}
             >
               <p>Python</p>
-              <hr style={{ width: "50%" }} />
+              <hr style={{ width: "70%" }} />
+            </motion.div>
+
+            <motion.div
+              className="about-skill"
+              initial={{ x: 100, opacity: 0 }} // right se aaye
+              transition={{ duration: 1, ease: "easeOut" }}
+              whileInView={{ x: 0, y: 0, opacity: 1 }}
+              viewport={{ once: false, amount: 0.2 }}
+            >
+              <p>Backend</p>
+              <hr style={{ width: "60%" }} />
             </motion.div>
           </div>
         </div>

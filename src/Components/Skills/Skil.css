@@ -126,7 +126,7 @@
     /* width:280px; */
     margin-top: 10px;
     width: 40vw;
-    min-width: 280px;
+    min-width: 300px;
     padding: 20px 0px;
     gap: 10px;
 
@@ -139,14 +139,14 @@
 
   .backend-container {
     width: 40vw;
-    min-width: 280px;
+    min-width: 300px;
     padding: 20px 0px;
     gap: 10px;
   }
 
   .tools-container {
     width: 40vw;
-    min-width: 280px;
+    min-width: 300px;
     padding: 20px 0px;
     gap: 10px;
   }
