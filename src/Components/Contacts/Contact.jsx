@@ -87,15 +87,15 @@ const Contact = () => {
             viewport={{ once: false, amount: 0.5 }}
           >
             <label htmlFor="">Your Name: </label>
-            <input type="text" placeholder="Enter Your name" name="name" />
+            <input type="text" placeholder="Enter Your name" name="name"  required/>
 
             <label htmlFor="">Your Email:</label>
-            <input type="email" placeholder="Enter your email" name="email" />
+            <input type="email" placeholder="Enter your email" name="email" required />
 
             <label htmlFor="">Your Message:</label>
             <textarea
               name="message"
-              placeholder="Enter your message"
+              placeholder="Enter your message" required
             ></textarea>
 
             <button type="submit" className="contact-submit">
