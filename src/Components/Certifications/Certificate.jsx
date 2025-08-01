@@ -1,6 +1,6 @@
 import React from "react";
 import certificate from "../../assets/Certificate";
-import "./certificate.css";
+import "./Certificate.css";
 import { easeInOut, motion } from "framer-motion";
 const Certificate = () => {
   return (
@@ -23,11 +23,13 @@ const Certificate = () => {
               <h2>{cert.s_name}</h2>
               <h3>{cert.s_des}</h3>
               <div className="verifyLink">
-               <button>
-                <a href={cert.s_link} target="_blank"> <i class="fas fa-external-link-alt"></i> Verify</a>
-               </button>
+                <button>
+                  <a href={cert.s_link} target="_blank">
+                    {" "}
+                    <i class="fas fa-external-link-alt"></i> Verify
+                  </a>
+                </button>
               </div>
-             
             </div>
           );
         })}
