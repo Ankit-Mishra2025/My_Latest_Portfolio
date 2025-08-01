@@ -9,7 +9,7 @@ const Project_Data = [
   {
     s_no: "01",
 
-    s_name: "Google Gemini",
+    s_name: "Google Gemini Replica",
     s_img: Gemini,
     s_desc:
       "Build google gemini replica using React js ,tailwind css and google gemini api.It show the outpu on user questions. It helped me to enhance my API intergration skill.",
@@ -17,7 +17,7 @@ const Project_Data = [
 
   {
     s_no: "02",
-    s_name: "JOB PORTAL",
+    s_name: "MERN Based JOB PORTAL",
     s_img: Portal,
     s_desc:
       "Designed and code a full stack job portal with added features like admin panel,applicants panel by using MERN.",
@@ -26,7 +26,7 @@ const Project_Data = [
 
   {
     s_no: "03",
-    s_name: "Netflix Clone",
+    s_name: "Netflix Replica",
     s_img: Netflix,
     s_desc:
       "Designed a fully responsive Netflix clone to sharpen my front-end skill by using react js ,tailwind css for better UI and Firebase for authentication",
@@ -35,7 +35,7 @@ const Project_Data = [
 
   {
     s_no: "04",
-    s_name: "Movie Website",
+    s_name: "Responsive Movie Landing Page",
     s_img: movie,
     s_desc:
       "Created and design a Movie website by using HTML,CSS and Javascript",
