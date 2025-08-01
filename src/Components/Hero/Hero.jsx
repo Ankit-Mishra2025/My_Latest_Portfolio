@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import Pic from "../../assets/pic.png";
+import Pic from "../../assets/homeImage.jpg";
 import { easeIn, easeOut, motion } from "framer-motion";
 // import ReactTypingEffect from "react-typing-effect";
 import { Typewriter } from "react-simple-typewriter";
@@ -20,7 +20,7 @@ const Hero = () => {
       >
 
  <h1>
-          <span>I'm Ankit Mishra,</span><br />
+         Hey,   <span>I'm Ankit Mishra,</span><br />
           <Typewriter
             words={[
               "  WEB DEVELOPER...",
@@ -36,7 +36,8 @@ const Hero = () => {
           />
         </h1>
         <p>
-         I am a passionate Frontend Developer from Ghaziabad with a Diploma in Information Technology. I have recently completed my academic journey and am now actively expanding my skills in full-stack web development. 
+           A frontend developer based in Ghaziabad with a passion for building clean and responsive web interfaces. I’m skilled in React.js, Tailwind CSS, JavaScript and currently learning the MERN stack development.
+       
         </p>
         <div className="hero_action">
           <div className="hero_connect">

@@ -3,21 +3,11 @@ import "./Skil.css";
 import Frontend from "../../assets/FrontEnd.js";
 import Backend from "../../assets/Backend.js";
 import Tools from "../../assets/Tools.js";
-import { easeOut, motion } from "framer-motion";
+import { easeInOut, easeOut, motion } from "framer-motion";
 
 const Skil = () => {
   return (
     <>
-    <motion.h1
-    className="skills"
-    initial={{x:-50,y:-50,opacity:0}}
-transition={{duration:1,ease:easeOut}}
-whileInView={{x:0,y:0,opacity:1}}
-viewport={{once:false,amount:0.8}}
-    >
-My Skills
-    </motion.h1>
-    
    
    
 <motion.div
@@ -27,10 +17,20 @@ className="skill_container" id="skills"
 // whileInView={{x:0,y:0,opacity:1}}
 // viewport={{once:false,amount:0.8}}
 
-
 >
- 
+
+   <motion.h1
+    className="skills"
+    initial={{x:50,y:-50,opacity:0}}
+      whileInView={{y:0,x:0, opacity:1}}
+      transition={{duration:0.8,ease:easeInOut}}
+      viewport={{once:false,amount:0.2}}
+    >
+My Skills
+    </motion.h1> 
+ {/* <h1 className="skills">My Skills</h1> */}
      
+     <div className="main-container">
       <div className="frontEnd-container">
         {
         Frontend.map((image, index) => {
@@ -68,7 +68,7 @@ className="skill_container" id="skills"
         })
       }
      </div>
-  
+  </div>
 </motion.div>
    
      </>

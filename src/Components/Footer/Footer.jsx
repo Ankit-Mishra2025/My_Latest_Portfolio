@@ -14,10 +14,11 @@ const Footer = () => {
             <h1>Ankit Mishra</h1>
             <p>I am available to assist your project,feel free to contact me</p>
              <div className="links">
-            <a href="https://github.com/Ankit-Mishra2025">
+            <a href="https://github.com/Ankit-Mishra2025" target="
+            _blank">
               <img src={git} />
             </a>
-            <a href="https://www.linkedin.com/in/ankit-mishra-7b3393310/">
+            <a href="https://www.linkedin.com/in/ankit-mishra-7b3393310/" target="_blank">
               <img src={linkedin} />
             </a>
             <a href="mailto:anki95081@gmail.com">
@@ -37,7 +38,7 @@ const Footer = () => {
                   href="#home"
                   className="anchorLink"
                 >
-                  Home
+                 Home
                 </AnchorLink>
               </li>
               <li>
@@ -47,7 +48,7 @@ const Footer = () => {
                  
                   className="anchorLink"
                 >
-                  About Me
+               About Me
                 </AnchorLink>
               </li>
               <li>
@@ -78,7 +79,7 @@ const Footer = () => {
                   
                   className="anchorLink"
                 >
-                  Certifications
+                Certifications
                 </AnchorLink>
               </li>
               <li>

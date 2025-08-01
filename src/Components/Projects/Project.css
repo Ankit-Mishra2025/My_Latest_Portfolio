@@ -3,8 +3,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 50px;
-  margin: 80px;
+  gap: 80px;
+  margin: 80px 100px;
 }
 
 .projects-title h1 {
@@ -32,17 +32,15 @@
   padding: 10px 15px;
 }
 
-.project-format h3 {
-  font-size: 16px;
-  font-weight: 600;
-}
+
 .project-format h2 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 800;
   background: linear-gradient(270deg, #da7c25 50%, #b923e1 106.28%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
 .project-format img {
@@ -58,13 +56,13 @@
   border: 2px solid #ff00ff;
   /* background-image: linear-gradient(45deg, #6e0146,#582300); */
   transform: scale3d(1.06, 1, 2);
-  transform: translateY(-5%);
+  transform: translateY(-3%);
   transition: 0.5s;
   box-shadow:0.5px 0.25px 15px rgb(179, 0, 0) ,2px -2px 10px rgb(0, 0, 196);
 }
 
 .project-format p {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
 }
 
@@ -75,7 +73,7 @@
 
 .explore-btn {
   display: flex;
-  gap: 55px;
+  gap: 40px;
   margin-top: 10px;
 }
 
@@ -84,25 +82,61 @@
   text-decoration: none;
   color: white;
 }
-.explore-btn button {
+
+
+.getCodeBtn button{
   padding: 10px;
   border-radius: 10px;
-  background: transparent;
-  border: 2px solid #9d5f03;
+  background: rgb(117, 191, 255);
+outline: none;
+ border: none;
   cursor: pointer;
   outline: none;
-
+font-weight: 600;
   font-size: 14px;
   transition: 0.3s;
+padding: 10px ;
+display: flex;
+gap:10px;
+
+
 }
 
-.explore-btn button:hover {
-  background: linear-gradient(270deg, #da7c25 0.36%, #b923e1);
 
-  border: 2px solid white;
-  /* visibility: visible; */
-  transform: translateY(-6%);
+.getCodeBtn button>a{
+  color: black;
 }
+
+
+.demo-btn{
+
+background: rgb(118, 187, 0);
+  padding: 10px;
+  border-radius: 10px;
+outline: none;
+ border: none;
+  cursor: pointer;
+font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+padding: 10px ;
+display: flex;
+gap:10px;
+
+}
+
+
+.getCodeBtn button:hover {
+  
+  border: 2px solid yellow;
+  transform: translateY(-3%);
+}
+
+.demo-btn:hover{
+    border: 2px solid blue;
+  transform: translateY(-3%);
+}
+
 
 @media (max-width: 770px) {
   .projects-title h1 {
@@ -115,8 +149,8 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 300px;
-       min-width: 250px;
+    width: 30vw;
+       min-width: 280px;
   }
 
   .project-format img {
@@ -127,4 +161,5 @@
     margin: auto;
     margin-top: 0%;
   }
+ 
 }

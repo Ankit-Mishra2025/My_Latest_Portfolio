@@ -2,12 +2,32 @@ import "./Navbar.css";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useState } from "react";
-
+import logo from '../../assets/Ankit logol.png'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+const[mode,setMode]=useState(false)
 
   function handleNav() {
     setNav(!nav);
+  }
+
+  function handleMode(){
+
+    let body=document.body;
+    body.classList.toggle("light")
+    body.style.backgroundColor="Black"
+
+
+    if (mode===true) {
+      body.style.backgroundColor="Black"
+
+    }
+    else{
+       body.style.backgroundColor="White"
+      
+
+    }
+    setMode(!mode)
   }
 
   return (
@@ -19,6 +39,7 @@ const Navbar = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
+        
         <h1>@Ankit</h1>
 
         <ul className="nav-menu desktop">
@@ -54,10 +75,16 @@ const Navbar = () => {
               Contact
             </AnchorLink>
           </li>
+         
         </ul>
 
+<button onClick={handleMode} className="modeBtn">
+            {
+              mode?<i class="fa-regular fa-moon moon"></i>:<i class="fa-regular fa-sun sun"></i>
+            }
 
-       
+</button>
+      
         <button onClick={handleNav} className="menu-btn">
           {!nav ? (
             <i className="fa-solid fa-bars"></i>
