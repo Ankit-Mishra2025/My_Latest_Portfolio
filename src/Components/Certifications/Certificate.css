@@ -71,7 +71,7 @@
   height: 250px;
   width: 100%;
   border-radius: 8px;
-  object-fit: fill;
+  width: 340px;
 }
 
 .certificates h3 {
@@ -94,5 +94,9 @@
     width: 20vw;
     min-width: 250px;
     margin-top: 8px;
+  }
+  .certificates img{
+    width: 90vw;
+    max-width: 250px;
   }
 }
