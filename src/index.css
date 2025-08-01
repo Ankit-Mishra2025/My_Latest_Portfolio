@@ -3,8 +3,7 @@
 * {
   font-family: "Poppins", sans-serif;
   margin: 0px;
- padding: 0px;
- 
+  padding: 0px;
 }
 
 /* body{
@@ -15,178 +14,166 @@
     color: white;
 } */
 
-body,html {
+body,
+html {
   margin: 0;
   padding: 0;
   width: 100vw;
   overflow-x: hidden; /* Prevent horizontal scroll */
 
- 
-
   background-color: rgb(2, 16, 29);
   /* background-color: rgba(0, 0, 65, 0.97); */
-  
+
   backdrop-filter: blur(10px);
 
   color: white;
   font-family: "Segoe UI", sans-serif;
 }
 
-body.light .navbar{
-background-color:  rgb(95, 95, 248);
-
+body.light .navbar {
+  background-color: rgb(95, 95, 248);
 }
 
-
-
-body.light .left_hero>p{
-  color:black;
+body.light .left_hero > p {
+  color: black;
   font-weight: 500;
 }
 
-body.light .left_hero h1{
+body.light .left_hero h1 {
   color: black;
 }
-body.light .about-para>p{
-  color:black;
+body.light .about-para > p {
+  color: black;
   font-weight: 500;
   /* min-width: 280px; */
 }
 
-body.light .about-skill>p{
-   color:black;
+body.light .about-skill > p {
+  color: black;
   font-weight: 700;
 }
 
-body.light .about-achievemnt>p{
-   color:black;
+body.light .about-achievemnt > p {
+  color: black;
   font-weight: 500;
 }
 
-
-body.light .hero_resume{
-color: black;
+body.light .hero_resume {
+  color: black;
 }
 
-body.light .hero_resume:hover{
-color: black;
-background-color: black;
+body.light .hero_resume:hover {
+  color: black;
+  background-color: black;
 }
 
 body.light .frontEnd-container {
- background-color:rgba(0, 26, 49, 0.783);
+  background-color: rgba(0, 26, 49, 0.783);
   backdrop-filter: blur(20px);
   border: none;
 }
 
 body.light .backend-container {
-  background-color:rgba(0, 26, 49, 0.783); 
-   backdrop-filter:blur(20px); 
+  background-color: rgba(0, 26, 49, 0.783);
+  backdrop-filter: blur(20px);
   border: 1px solid black;
 }
 
 body.light .tools-container {
-  background-color:rgba(0, 26, 49, 0.783);
+  background-color: rgba(0, 26, 49, 0.783);
   backdrop-filter: blur(20px);
   border: none;
 }
-body.light .project-format{
-  
+body.light .project-format {
   border: 2px solid black;
   background-color: rgba(255, 255, 255, 0.406);
   backdrop-filter: blur(10px);
 }
 
-
-
-body.light .project-format>p{
-  color:Black;
+body.light .project-format > p {
+  color: Black;
   font-weight: 600;
   font-size: 15px;
 }
-body.light .project-format>img{
-  border: 2px solid rgb(139, 139, 3);
+body.light .project-format > img {
+  border: 2px solid rgb(0, 191, 191);
   border-radius: 5px;
+  height: 183px;
+  width: 101%;
 }
 
-body.light .project-format:hover{
+body.light .project-format:hover {
   border: 1px solid blue;
-   background-color: rgba(177, 207, 239, 0.957);
+  background-color: rgba(177, 207, 239, 0.957);
 }
 
-
-
-body.light .getCodeBtn{
-
+body.light .getCodeBtn {
   border-radius: 10px;
 }
 
-body.light .certificates{
+body.light .certificates {
   border: 2px solid black;
   background-color: rgba(255, 255, 255, 0.406);
   backdrop-filter: blur(10px);
 }
 
-body.light .certificates:hover{
+body.light .certificates:hover {
   background-color: rgba(177, 207, 239, 0.957);
   border: 1px solid blue;
 }
 
-body.light .certificates>h3{
-   color:Black;
+body.light .certificates > h3 {
+  color: Black;
   font-weight: 600;
   font-size: 15px;
 }
 
-body.light .certificates>img{
+body.light .certificates > img {
   border: 2px solid rgb(139, 139, 3);
   border-radius: 5px;
 }
 
-body.light .contact-title p{
+body.light .contact-title p {
   font-weight: 600;
   color: black;
 }
 
-body.light .contact-left>h1{
+body.light .contact-left > h1 {
   color: black;
   font-weight: 600;
   max-width: 250px;
 }
-body.light .contact-left>p{
-   color: black;
+body.light .contact-left > p {
+  color: black;
   font-weight: 600;
-   max-width: 200px;
+  max-width: 200px;
 }
 
-body.light .contact-right{
-  background-color:rgba(0, 15, 27, 0.874) ;
+body.light .contact-right {
+  background-color: rgba(0, 15, 27, 0.874);
   transition: 0.3s;
 }
 
-body.light .contact-right:hover{
-   box-shadow: -5px -10px 50px rgb(2, 91, 169);
-    transform: translateY(5%);
-    transform: scale(1.05);
+body.light .contact-right:hover {
+  box-shadow: -5px -10px 50px rgb(2, 91, 169);
+  transform: translateY(5%);
+  transform: scale(1.05);
 }
 
-body.light .contact-right>input{
-  background-color:aliceblue ;
+body.light .contact-right > input {
+  background-color: aliceblue;
   color: black;
- 
-  
 }
-body.light .contact-right>textarea{
-  background-color:aliceblue ;
+body.light .contact-right > textarea {
+  background-color: aliceblue;
   color: black;
-  
 }
 
-body.light .footer-last>p{
-color: black;
-font-weight: 500;
-width: 50vw;
-min-width: 250px;
-margin: auto;
-text-align: center;
+body.light .footer-last > p {
+  color: black;
+  font-weight: 500;
+  width: 50vw;
+  min-width: 250px;
+  margin: auto;
+  text-align: center;
 }

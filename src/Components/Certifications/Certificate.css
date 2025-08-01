@@ -60,7 +60,7 @@
 }
 
 .certificates h2 {
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 800;
   background: linear-gradient(270deg, #da7c25 50%, #b923e1 106.28%);
   background-clip: text;
@@ -81,7 +81,7 @@
 
 @media (max-width: 770px) {
   .title h1 {
-    font-size: 40px;
+    font-size: 50px;
     min-width: 200px;
   }
   .allCertficate {

@@ -72,7 +72,7 @@ border-radius: 500px;
   border-radius: 50px;
   cursor: pointer;
   background: linear-gradient(270deg, #da7c25 0.36%, #b923e1 100%);
-  font-size: 18px;
+  font-size: 19px;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -91,7 +91,7 @@ border-radius: 500px;
   border-radius: 50px;
   cursor: pointer;
   background: linear-gradient(270deg, #da7c25 0.36%, #b923e1 100%);
-  font-size: 18px;
+  font-size: 19px;
   cursor: pointer;
   transition: 0.5s;
   border: 2px solid white;
@@ -172,7 +172,7 @@ border-radius: 500px;
   }
 
   .left_hero h1 span{
-    font-size: 43px;
+    font-size: 45px;
     font-weight: 700;
   }
 }

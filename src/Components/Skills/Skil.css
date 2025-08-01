@@ -125,8 +125,8 @@
   .frontEnd-container {
     /* width:280px; */
     margin-top: 10px;
-    width: 40vw;
-    min-width: 300px;
+    width: 42vw;
+    min-width: 320px;
     padding: 20px 0px;
     gap: 10px;
 
@@ -138,15 +138,15 @@
   }
 
   .backend-container {
-    width: 40vw;
-    min-width: 300px;
+    width: 42vw;
+    min-width: 320px;
     padding: 20px 0px;
     gap: 10px;
   }
 
   .tools-container {
-    width: 40vw;
-    min-width: 300px;
+    width: 42vw;
+    min-width: 320px;
     padding: 20px 0px;
     gap: 10px;
   }
@@ -154,7 +154,7 @@
   .skills {
     display: flex;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .main-container {

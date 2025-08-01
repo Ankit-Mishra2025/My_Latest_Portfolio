@@ -32,7 +32,7 @@
 }
 
 .project-format h2 {
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 800;
   background: linear-gradient(270deg, #da7c25 50%, #b923e1 106.28%);
   background-clip: text;
@@ -60,7 +60,7 @@
 }
 
 .project-format p {
-  font-size: 13px;
+  font-size: 13.5px;
   font-weight: 500;
 }
 
@@ -128,7 +128,7 @@
 
 @media (max-width: 770px) {
   .projects-title h1 {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     min-width: 200px;
   }
