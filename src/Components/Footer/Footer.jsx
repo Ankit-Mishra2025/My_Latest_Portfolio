@@ -107,7 +107,13 @@ const Footer = () => {
           </div>
           
         </div>
-        
+       
+      </div>
+
+       <div className="upHome" >
+        <AnchorLink offset={50} href="#home">
+        	<i class="fas fa-arrow-up"></i>
+          </AnchorLink>
       </div>
       <div className="footer-last">
           <p>Build With Passion❤️ Creativity by Nature😊</p>

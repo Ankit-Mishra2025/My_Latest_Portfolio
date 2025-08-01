@@ -3,10 +3,11 @@ hr {
 }
 .footer-container {
   width: 100vw;
-  margin: 50px 0px;
   display: flex;
   background-color: rgb(1, 33, 61);
-  margin-top: 0px;
+position: static;
+bottom: 0;
+z-index: 1;
   padding: 60px 30px;
 }
 
@@ -73,6 +74,37 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.upHome{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   transition: 0.8s;
+   margin-top: 5px;
+}
+
+.upHome i{
+  height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    color: #f0f8ff;
+   background-color: rgb(1, 125, 125);
+   text-align: center;
+    box-shadow: 5px -8px 30px rgb(0, 255, 17);
+    cursor:pointer;
+    font-size: 18px;
+     animation: bounce 2s infinite;
+
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .footer-last {
