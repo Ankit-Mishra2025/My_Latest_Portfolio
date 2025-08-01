@@ -152,8 +152,8 @@ gap:10px;
     gap: 30px; */
     display: grid;
     grid-template-columns: 1fr;
-    width: 30vw;
-       min-width: 280px;
+    width: 35vw;
+       min-width: 300px;
   }
 
   .project-format img {

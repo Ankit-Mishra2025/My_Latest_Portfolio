@@ -91,12 +91,12 @@
   }
 
   .certificates {
-    width: 20vw;
-    min-width: 250px;
+    width: 300px;
+  min-width: 280px;
     margin-top: 8px;
   }
+ 
   .certificates img{
-    width: 90vw;
-    max-width: 250px;
+    width: 300px;
   }
 }
