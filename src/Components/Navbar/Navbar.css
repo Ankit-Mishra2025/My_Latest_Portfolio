@@ -1,6 +1,4 @@
-
 .navbar {
-  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,53 +6,48 @@
   position: sticky;
   top: 0px;
   z-index: 10;
-  background-color:rgba(0, 0, 0, 0.733);
-  backdrop-filter: blur(50px) ;
-padding: 14px 10px;
+  background-color: rgba(0, 0, 0, 0.733);
+  backdrop-filter: blur(50px);
+  padding: 14px 10px;
   border-radius: 12px;
- box-shadow: 0px 0.20px 2px orange;
+  box-shadow: 0px 0.2px 2px orange;
 }
 
-
-
-.logoName{
+.logoName {
   display: flex;
-gap: 1px;
+  gap: 1px;
   position: relative;
- flex-direction: row;
+  flex-direction: row;
 }
 
-.logoName img{
+.logoName img {
   height: 45px;
   width: 45px;
-
 }
 .navbar h1 {
- 
   background: linear-gradient(270deg, #da7c25 0.36%, #8f09b4);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 22px;
   border-radius: 30px;
- font-weight: 500;
+  font-weight: 500;
 }
-.logoName p{
- position: absolute;
-top: 30px;
- margin-left:50px ;
- font-size: 13px;
- color: rgb(193, 191, 191);
- font-weight: 400;
+.logoName p {
+  position: absolute;
+  top: 30px;
+  margin-left: 50px;
+  font-size: 13px;
+  color: rgb(193, 191, 191);
+  font-weight: 400;
 }
 
-.logoName p span{
-  background: linear-gradient(270deg,orange 0.36%,rgb(216, 20, 183)80%);
+.logoName p span {
+  background: linear-gradient(270deg, orange 0.36%, rgb(216, 20, 183) 80%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-font-weight: 500;
-
+  font-weight: 500;
 }
 
 .menu-btn {
@@ -69,21 +62,18 @@ font-weight: 500;
 
 /* Sidebar for mobile */
 .side-menu {
-  overflow-x: hidden;
   position: fixed;
- top:0;
+  top: 0;
   right: -100%;
   width: 200px;
   height: 100vh;
   background: rgba(6, 48, 84, 0.521);
   backdrop-filter: blur(15px);
   padding: 60px 20px;
-  transition: left 2s ;
+  transition: left 2s;
   transition-duration: 5s;
-
   border-radius: 10px;
 }
-
 
 .side-menu.show {
   right: 0;
@@ -92,21 +82,18 @@ font-weight: 500;
 .side-menu ul {
   list-style: none;
   padding: 0;
-
- 
 }
 
 .side-menu li {
   margin: 20px 0;
   font-size: 18px;
- 
 }
 
 .modeBtn {
   margin-right: 70px;
   cursor: pointer;
   transition: 0.3s;
- background-color: transparent;
+  background-color: transparent;
   border: 1.5px solid rgb(166, 108, 0);
   outline: none;
   border-radius: 2px;
@@ -116,11 +103,10 @@ font-weight: 500;
 .modeBtn i {
   height: 10px;
   width: 22px;
-color:white;
+  color: white;
   font-size: 18px;
 }
 /* Responsive */
-
 
 .navbar:hover {
   box-shadow: 2px 0.3px 5px rgba(4, 4, 176, 0.548);
@@ -139,12 +125,10 @@ color:white;
   font-weight: 300;
 }
 
-
 .nav-menu .anchorLink {
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  
 }
 
 .anchorLink {
@@ -154,16 +138,13 @@ color:white;
 }
 
 @media (max-width: 768px) {
-  .navbar{
-    overflow-x: hidden;
-  }
   .nav-menu.desktop {
     display: none;
   }
-  
+
   .menu-btn {
     display: block;
-    border:1px solid orange;
+    border: 1px solid orange;
     font-size: 18px;
     border-radius: 3px;
     margin-right: 20px;

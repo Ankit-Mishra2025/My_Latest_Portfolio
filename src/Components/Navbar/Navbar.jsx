@@ -26,6 +26,7 @@ const Navbar = () => {
 
   return (
     <>
+    <div>
       {/* Top Navbar */}
       <motion.div
         className="navbar"
@@ -139,6 +140,7 @@ const Navbar = () => {
             </AnchorLink>
           </li>
         </ul>
+      </div>
       </div>
     </>
   );

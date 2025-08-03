@@ -74,15 +74,12 @@ border-radius: 500px;
  
 }
 
-
 .hero_connect {
   display: flex;
   gap: 50px;
   cursor: pointer;
  
 }
-
-
 
 .connectLink {
 
@@ -95,8 +92,8 @@ border-radius: 500px;
   font-weight: 400;
   border: none;
   outline: none;
-  position: relative;
-  bottom: 10px;
+  /* position: relative;
+  bottom: 10px; */
 }
 
 .connectLink a{
@@ -112,8 +109,8 @@ border-radius: 500px;
 
 .heroResume{
     cursor: pointer;
-position: relative;
-bottom: 10px;
+/* position: relative;
+bottom: 10px; */
   background-color: rgb(0, 86, 161);
   font-size: 16px;
   cursor: pointer;
@@ -144,8 +141,8 @@ transform: scale(1.10);
   border-radius: 30px;
   border: 1px solid orange;
   transition: 0.5s;
-  position: relative;
-  bottom: 10px;
+  /* position: relative;
+  bottom: 10px; */
  
 }
 
@@ -166,8 +163,7 @@ transform: scale(1.10);
   }
   .left_hero h1{
     font-size: 35px;
-    width: 100vw;
-    
+    /* width: 100vw; */
     margin-top: 50px;
   }
   
@@ -176,26 +172,7 @@ transform: scale(1.10);
     font-weight: 600;
   }
 
-  .heroPara{
-    display: flex;
-    flex-direction: column;
   
-  }
-
-  .heroPara p {
-  
-    font-size: 14px;
-  width: 20vw;
-  margin-right: 50px;
-text-align: center;
-    margin-top: 40px;
-    font-size: 13px;
-  
-
-  }
-  .heroPara p span{
-    font-size: 14px;
-  }
 
   .hero_action {
    margin-bottom: 30px;
@@ -209,7 +186,9 @@ flex-direction: column;
   gap:35px;
   justify-content: space-evenly;
   align-items: center;
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   flex-wrap: wrap;
   margin-left: 30px;
   margin-top: 50px;

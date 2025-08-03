@@ -15,11 +15,9 @@
     color: white;
 } */
 
-body {
+body,html{
   /* margin: 0;
   padding: 0; */
- 
-
   background-color: rgb(1, 7, 13);
   backdrop-filter: blur(10px);
 overflow-x: hidden;
