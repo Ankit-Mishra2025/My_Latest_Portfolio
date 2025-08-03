@@ -1,10 +1,10 @@
 .projects {
   display: flex;
-  justify-content:flex-start;
-  align-items:center;
+  justify-content: flex-start;
+  align-items: center;
   flex-direction: column;
-  margin: 40px;
- gap:50px;
+  margin: 80px;
+  gap: 50px;
 }
 
 .projects-title h1 {
@@ -15,70 +15,61 @@
   -webkit-text-fill-color: transparent;
 }
 
-.projects-container{
+.projects-container {
   display: flex;
   flex-wrap: wrap;
- gap:20px;
-
-
+  gap: 20px;
 }
 
-
-.hoverProject{
+.hoverProject {
   display: flex;
- width: 340px;
-  flex-direction:row ;
+  width: 340px;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
- margin-top: 20px;
- box-shadow: 0px 1px 2px rgb(0, 202, 0);
- margin-left: 20px;
- background-color: rgba(1, 7, 13, 0.751);
-backdrop-filter: blur(20px);
-border-radius: 12px;
-transition: 0.5s;
-cursor: grabbing;
+  margin-top: 20px;
+  box-shadow: 0px 1px 2px rgb(0, 202, 0);
+  margin-left: 20px;
+  background-color: rgba(1, 7, 13, 0.751);
+  backdrop-filter: blur(20px);
+  border-radius: 12px;
+  transition: 0.5s;
+  cursor: grabbing;
 }
 
-.hoverProject:hover{
-transform: scale(1.02);
-box-shadow: 0px 2px 10px rgb(142, 211, 3);
+.hoverProject:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 2px 10px rgb(142, 211, 3);
 }
 
-
-.project-format img{
-height: 250px;
+.project-format img {
+  height: 250px;
   width: 340px;
   border-radius: 8px;
 }
 
-.project-format h2{
+.project-format h2 {
   font-size: 20px;
   text-align: center;
   font-weight: 700;
-   background: linear-gradient(270deg, #da7c25 0.09%, #ba0cea 90.28%);
+  background: linear-gradient(270deg, #da7c25 0.09%, #ba0cea 90.28%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.project-format p{
-font-size: 15px;
-font-weight: 400;
- color: rgba(224, 224, 224, 0.79);
-margin-left: 10px;
+.project-format p {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(224, 224, 224, 0.79);
+  margin-left: 10px;
 }
-
-
-
 
 .explore-btn {
   display: flex;
-  gap:70px;
+  gap: 70px;
   margin-top: 10px;
-margin-left: 30px;
-padding: 8px 10px;
- 
-
+  margin-left: 30px;
+  padding: 8px 10px;
 }
 
 .explore-btn button a {
@@ -99,9 +90,9 @@ padding: 8px 10px;
   transition: 0.3s;
   display: flex;
   gap: 5px;
-    padding: 8px;
-    transition: 0.5s;
-    margin-bottom: 3px;
+  padding: 8px;
+  transition: 0.5s;
+  margin-bottom: 3px;
 }
 
 .getCodeBtn button > a {
@@ -119,8 +110,6 @@ padding: 8px 10px;
   transition: 0.5s;
   padding: 5px;
   margin-bottom: 3px;
-
- 
 }
 
 .getCodeBtn button:hover {
@@ -133,39 +122,35 @@ padding: 8px 10px;
   transform: translateY(-3%);
 }
 
- @media (max-width: 770px) {
+@media (max-width: 770px) {
   .projects-title h1 {
-    font-size: 46px;
+    font-size: 45px;
     text-align: center;
     min-width: 200px;
   }
 
- .project-format{
-/* width: 280px;
+  .project-format {
+    /* width: 280px;
 max-height: 450px;
 min-width: 280px; */
-/* display: grid;
+    /* display: grid;
 grid-template-columns: 1fr;
 min-width: 300px; */
+  }
 
+  .hoverProject {
+    height: 450px;
+    width: 320px;
+  }
 
- }
-
- .hoverProject{
-height:450px ;
-   width:320px ;  
- }
-
- .project-format h2{
-  font-size: 19px;
- }
- .project-format p{
-  font-size: 13px;
- }
+  .project-format h2 {
+    font-size: 19px;
+  }
+  .project-format p {
+    font-size: 13px;
+  }
   .project-format img {
     height: 300px;
     width: 320px;
-    
-
   }
-}  
+}

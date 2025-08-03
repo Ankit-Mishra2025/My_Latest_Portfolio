@@ -124,15 +124,15 @@
   }
 
   .skills{
-    font-size: 46px;
+    font-size: 45px;
   }
 
   .frontEnd-container {
     margin-top: 10px;
     width: 70vw;
-  gap:8px;
+
   flex-wrap: wrap;
-  min-height: 300px;
+  min-height: 250px;
   margin-right: 40px;
   }
 
@@ -140,15 +140,14 @@
 
   .backend-container {
     width: 70vw;
-    gap: 10px;
-    min-height: 300px;
+    min-height: 250px;
   }
 
   .tools-container {
     width: 70vw;
-    gap: 8px;
+ 
     flex-wrap: wrap;
-    min-height: 300px;
+    min-height: 250px;
   }
 
  

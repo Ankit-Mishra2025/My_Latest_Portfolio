@@ -223,13 +223,14 @@ flex-direction: column;
   max-width: 100%;
   overflow-x: hidden;
   flex-wrap: wrap;
- 
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .hero_connect button{
   padding: 8px;
 }
-
+.viewProject{
+  margin-top: 20px;
+}
 
   
 }
