@@ -125,21 +125,26 @@
 
   .frontEnd-container {
     margin-top: 10px;
-    width: 100vw;
-    gap: 10px;
-  
+    width: 70vw;
+  gap:8px;
+  flex-wrap: wrap;
+  min-height: 300px;
+  margin-right: 40px;
   }
 
  
 
   .backend-container {
-    width: 100vw;
+    width: 70vw;
     gap: 10px;
+    min-height: 300px;
   }
 
   .tools-container {
-    width: 100vw;
-    gap: 10px;
+    width: 70vw;
+    gap: 8px;
+    flex-wrap: wrap;
+    min-height: 300px;
   }
 
   .skills {

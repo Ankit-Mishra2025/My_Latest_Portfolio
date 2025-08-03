@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 50px;
-  margin: 80px;
+  margin: 150px;
 }
 
 .contact-title h1 {
@@ -126,15 +126,14 @@ border-radius: 5px;
 }
 
 .contact-right {
-  width: 20vw;
-  min-width: 400px;
+ 
+width: 500px;
   display: flex;
   flex-direction: column;
   gap: 30px;
   padding: 30px 20px;
   border-radius: 10px;
   transition: 0.5s;
-  
   margin-right: 20px;
    border: 1px solid rgb(111, 3, 3);
   background-color: rgba(0, 24, 44, 0.511);
@@ -237,37 +236,36 @@ max-width: 40vw;
   .contact-title h1 {
     font-size: 40px;
     min-width: 200px;
+    width: 100vw;
+    margin-left: 50px;
   }
-
+.contact-title p{
+  font-size: 15px;
+  margin-left: 50px;
+}
   .contact-section {
     display: flex;
     flex-direction: column;
     width: 100vw;
   }
 
-  .contact-left {
-    width: 100%;
-  }
-  .contact-left img {
-    height: 200px;
-    width: 280px;
-    transition: 0.5s;
-    border-radius: 10px;
-    min-width: 250px;
-  }
+ .contact-left{
+  display: flex;
+  flex-direction: column;
+  
+ 
+  
+ }
 
-  .contact-left h1 {
-    font-size: 25px;
-    width: 350px;
-    min-width: 300px;
-  }
+ .secondContactBox{
+width: 70vw;
+ height: 350px;
+ }
+
 
   .contact-right {
-    width: 30vw;
-    /* width: 280px; */
-    min-width: 250px;
-    padding: 10px 50px;
-    margin: 10px 20px;
+width:70vw;
+height: 350px;
   }
 
   .contact-right label {
@@ -289,7 +287,7 @@ max-width: 40vw;
   }
 
   .contact-right textarea {
-    width: 85%;
+    width: 100%;
     padding: 8px;
     border: none;
     background: #32323c;
@@ -302,5 +300,6 @@ max-width: 40vw;
     padding: 7px 0px;
     font-size: 16px;
     width: 50vw;
+    
   }
 }

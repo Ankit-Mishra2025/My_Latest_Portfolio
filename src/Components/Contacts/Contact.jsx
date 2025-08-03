@@ -51,14 +51,7 @@ const Contact = () => {
             transition={{ duration: 1 }}
             viewport={{ once: false, amount: 0.5 }}
           >
-            <div className="firstContactBox">
-            {/* <img src={contact} /> */}
           
-            {/* <p>
-              I'm currently available to take on new projects, so feel free to
-              connect and send me a message about anything..
-            </p> */}
-            </div>
             <div className="secondContactBox">
               <h2>Quick Contacts</h2>
                 <p>

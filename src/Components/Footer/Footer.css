@@ -274,9 +274,11 @@ margin-top: 40%;
 
 @media (max-width: 770px) {
   .footer-container {
-    width: 100vw;
+    /* width: 100vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .footer {
@@ -286,37 +288,30 @@ margin-top: 40%;
     margin-left: 0px;
   }
 
-  .informatiion h1 {
-    font-size: 21px;
-  }
+  
+ 
+.footerLast{
+  position: relative;
+  bottom: 0;
+  max-width: 250px;
+}
+ .footerLast h1{
+width:100vw;
+  font-size: 14px;
+  text-align: center;
+ margin-top: 10px;
+ 
+ }
+ .footerLast p{
+  width: 100vw;
+  font-size: 15px;
+  margin-top: 10px;
+ 
+ }
 
-  .informatiion p {
-    font-size: 13px;
-  }
+ .upHome{
+  position: relative;
+  top:0
+ }
 
-  .quickLinks h2 {
-    font-size: 20px;
-  }
-
-  .contact-information h2 {
-    font-size: 18px;
-  }
-
-  .contact-information h4 {
-    font-size: 16px;
-  }
-  .contact-information p {
-    font-size: 15px;
-  }
-
-  .footer-last {
-    width: 100%;
-    min-width: 230px;
-  }
-
-  .links img {
-    height: 20px;
-    width: 20px;
-    border-radius: 10px;
-  }
 }

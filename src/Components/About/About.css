@@ -19,7 +19,7 @@
 }
 
 .about-section {
-  margin-top: 70px;
+  margin-top: 30px;
   display: flex;
   gap: 50px;
 }
@@ -354,32 +354,32 @@
 
  
 .who{
-height: 230px;
+ height: 230px;
 min-height: 225px;
-width: 100vw;
-
+width: 90vw;
 margin-left: 10px;
 }
 
 .what{
 height: 230px;
 min-height: 225px;
-width: 100vw;
+width: 90vw;
 margin-left: 10px;
+
 }
 
 .approach{
   height: 230px;
 min-height: 225px;
-width: 100vw;
+width: 90vw;
 margin-left: 10px;
+
 }
 
 .coreValue{
   height: 230px;
 min-height: 225px;
 width: 90vw;
-min-width: 300px;
 margin-left: 10px;
 }
 .coreValue  p{
@@ -410,19 +410,21 @@ margin-left: 10px;
 .certify{
    height: 260px;
 min-height: 225px;
-width: 100vw;
+width: 90vw;
 margin-left: 10px;
 gap:15px;
 display: flex;
 flex-direction: column;
+
 }
 
 .currentFocus{
    display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 90vw;
   height: 350px;
  margin-left: 10px;
+
 }
 .currentLearnings{
   display: flex;
