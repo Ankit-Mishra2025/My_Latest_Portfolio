@@ -7,10 +7,10 @@ const About = () => {
     <div className="about" id="aboutMe">
       <motion.div
         className="about-title"
-        initial={{ x: 50, y: -80, opacity: 0 }}
-        whileInView={{ y: 0, x: 0, opacity: 1 }}
-        transition={{ duration: 0.8, ease: easeInOut }}
-        viewport={{ once: false, amount: 0.8 }}
+        // initial={{ x: 50, y: -50, opacity: 0 }}
+        // whileInView={{ y: 0, x: 0, opacity: 1 }}
+        // transition={{ duration: 0.8, ease: easeInOut }}
+        // viewport={{ once: false, amount: 0.8 }}
       >
         <h1>About me</h1>
       </motion.div>
@@ -19,7 +19,7 @@ const About = () => {
         <div className="about-left">
           <motion.div
             className="who"
-            initial={{ x: -200, y: 0, opacity: 0 }}
+            initial={{ x: -150, y: 0, opacity: 0 }}
             whileInView={{ x: 0, y: 0, opacity: 1 }}
             duration={{ transition: 1, ease: easeIn }}
             viewport={{ once: false, amount: 0.5 }}
@@ -35,7 +35,7 @@ const About = () => {
             className="what"
             initial={{ x: -150, y: 0, opacity: 0 }}
             whileInView={{ x: 0, y: 0, opacity: 1 }}
-            duration={{ transition: 1, ease: easeIn }}
+            duration={{ transition: 1, }}
             viewport={{ once: false, amount: 0.5 }}
           >
             <h2>💪What I Do</h2>
@@ -47,7 +47,7 @@ const About = () => {
 
           <motion.div
             className="approach"
-            initial={{ x: -150, y: 0, opacity: 0 }}
+            initial={{ x: -140, y: 0, opacity: 0 }}
             whileInView={{ x: 0, y: 0, opacity: 1 }}
             duration={{ transition: 1, ease: easeIn }}
             viewport={{ once: false, amount: 0.5 }}
@@ -75,11 +75,11 @@ const About = () => {
 
         <div className="about-right">
           <motion.div
-            className="aboutAchievment"
-            initial={{ x: 140, y: 0, opacity: 0 }}
-            whileInView={{ x: 0, y: 0, opacity: 1 }}
-            duration={{ transition: 1, ease: easeIn }}
-            viewport={{ once: false, amount: 0.5 }}
+            // className="aboutAchievment"
+            // initial={{ x: 140, y: 0, opacity: 0 }}
+            // whileInView={{ x: 0, y: 0, opacity: 1 }}
+            // duration={{ transition: 1, ease: easeIn }}
+            // viewport={{ once: false, amount: 0.5 }}
           >
             <div className="aboutAchievment">
               <h1>🥇Achievments</h1>
