@@ -1,5 +1,5 @@
-import Gemini from "../assets/Gemini.png";
-import Portal from "../assets/Job Portal.png";
+import Gemini from "../assets/gemini.jpg";
+import Portal from "../assets/portal.jpg";
 import Netflix from "../assets/Netflix.png";
 import movie from "../assets/Movie.png";
 import watch from "../assets/Digitalwatch.png";
@@ -12,7 +12,7 @@ const Project_Data = [
     s_name: "Google Gemini Replica",
     s_img: Gemini,
     s_desc:
-      "Build google gemini replica using React js ,tailwind css and google gemini api.It show the outpu on user questions. It helped me to enhance my API intergration skill.",
+      "Build google gemini replica using React js tailwind css and google gemini api,helped me to enhance my API intergration skill."
   },
 
   {
@@ -29,7 +29,7 @@ const Project_Data = [
     s_name: "Netflix Replica",
     s_img: Netflix,
     s_desc:
-      "Designed a fully responsive Netflix clone to sharpen my front-end skill by using react js ,tailwind css for better UI and Firebase for authentication",
+      "Designed a fully responsive Netflix clone to sharpen my front-End skills using React JS,tailwind Css for better UI and Firebase",
     s_git: "https://github.com/Ankit-Mishra2025/Netflix_Clone",
   },
 
@@ -38,7 +38,7 @@ const Project_Data = [
     s_name: "Responsive Movie Landing Page",
     s_img: movie,
     s_desc:
-      "Created and design a Movie website by using HTML,CSS and Javascript",
+      "Created and design a Movie website by using HTML,CSS and Javascript.Helped me to enhance my CSS skills",
     s_git:
       "https://github.com/Ankit-Mishra2025/Javascript_Mini_Projects_Practice/tree/main/Movie%20Website",
   },
@@ -58,7 +58,7 @@ const Project_Data = [
     s_name: "Image Search Engine",
     s_img: imageSearch,
     s_desc:
-      "In this project i have created a image search engine which was assigned to me during my internship project by using Javascript and pexels API",
+      "During this project I created a image search engine which was assigned to me during my internship project by using JS and pexels API",
     s_git: "",
   },
 ];

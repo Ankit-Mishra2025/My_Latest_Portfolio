@@ -120,34 +120,25 @@
     flex-wrap: wrap;
     gap: 40px;
     margin: 0px 20px;
+    width: 100%;
   }
 
   .frontEnd-container {
-    /* width:280px; */
     margin-top: 10px;
-    width: 42vw;
-    min-width: 320px;
-    padding: 20px 0px;
+    width: 100vw;
     gap: 10px;
-
-    transition: 0.3s;
+  
   }
 
-  .frontEnd-container:hover {
-    transform: scaleY(1.01);
-  }
+ 
 
   .backend-container {
-    width: 42vw;
-    min-width: 320px;
-    padding: 20px 0px;
+    width: 100vw;
     gap: 10px;
   }
 
   .tools-container {
-    width: 42vw;
-    min-width: 320px;
-    padding: 20px 0px;
+    width: 100vw;
     gap: 10px;
   }
 

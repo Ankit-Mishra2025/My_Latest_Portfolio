@@ -51,16 +51,24 @@ const Contact = () => {
             transition={{ duration: 1 }}
             viewport={{ once: false, amount: 0.5 }}
           >
-            <img src={contact} />
-            <h1>
-              Your Next Dev is One Click Away
-              <br />
-              Let's Connect🚀
-            </h1>
-            <p>
+            <div className="firstContactBox">
+            {/* <img src={contact} /> */}
+          
+            {/* <p>
               I'm currently available to take on new projects, so feel free to
               connect and send me a message about anything..
+            </p> */}
+            </div>
+            <div className="secondContactBox">
+              <h2>Quick Contacts</h2>
+                <p>
+              Your Next Project is One Click Away <span>Let's Connect </span> 🚀 
             </p>
+               <a href="mailto:anki95081@gmail.com" target="_blank"> <i class="fas fa-envelope"></i> Email</a>
+             <a href="https://github.com/Ankit-Mishra2025" target="_blank" > <i class="fab fa-github"></i> Github</a>
+               <a href="https://www.linkedin.com/in/ankit-mishra-7b3393310/" target="_blank"> <i class="fab fa-linkedin"></i> Linkedin</a>
+              
+            </div>
           </motion.div>
 
           {/* <div className="contact-deatils">
@@ -86,20 +94,18 @@ const Contact = () => {
             transition={{ duration: 1, ease: easeOut }}
             viewport={{ once: false, amount: 0.5 }}
           >
-            <label htmlFor="">Your Name: </label>
-            <input type="text" placeholder="Enter Your name" name="name"  required/>
+           <h2>Send a Message</h2>
+            <input type="text" placeholder=" Your Name" name="name"  required/>
+           
+            <input type="email" placeholder="Email Address" name="email" required />
 
-            <label htmlFor="">Your Email:</label>
-            <input type="email" placeholder="Enter your email" name="email" required />
-
-            <label htmlFor="">Your Message:</label>
             <textarea
               name="message"
-              placeholder="Enter your message" required
+              placeholder=" Your Message" required=""
             ></textarea>
 
             <button type="submit" className="contact-submit">
-            <i class="fas fa-paper-plane"></i>  Submit Now
+            <i class="fas fa-paper-plane"></i> Send Message
             </button>
           </motion.form>
         </div>

@@ -2,7 +2,7 @@ import "./Navbar.css";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useState } from "react";
-import logo from "../../assets/Ankit logol.png";
+import imageLogo from "../../assets/nameLogo.webp"
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [mode, setMode] = useState(false);
@@ -33,7 +33,13 @@ const Navbar = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <h1>@Ankit</h1>
+        <div className="logoName">
+          <img src={imageLogo}/>
+         <h1>Ankit Mishra</h1>
+        {/* <h1> <span>Ankit Mishra</span></h1> */}
+        <p >Web <span> Developer</span></p>
+        </div>
+       
 
         <ul className="nav-menu desktop">
           <li>
@@ -58,11 +64,7 @@ const Navbar = () => {
               Projects
             </AnchorLink>
           </li>
-          <li>
-            <AnchorLink offset={50} href="#certificates" className="anchorLink">
-              Certifications
-            </AnchorLink>
-          </li>
+         
           <li>
             <AnchorLink offset={50} href="#contact" className="anchorLink">
               Contact
@@ -125,16 +127,7 @@ const Navbar = () => {
               Projects
             </AnchorLink>
           </li>
-          <li>
-            <AnchorLink
-              offset={50}
-              href="#certificates"
-              onClick={handleNav}
-              className="anchorLink"
-            >
-              Certifications
-            </AnchorLink>
-          </li>
+         
           <li>
             <AnchorLink
               offset={50}

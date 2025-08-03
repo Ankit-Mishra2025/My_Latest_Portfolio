@@ -7,6 +7,7 @@ import Certificate from "./Components/Certifications/Certificate";
 import Contact from "./Components/Contacts/Contact";
 import Footer from "./Components/Footer/Footer";
 import Skil from "./Components/Skills/Skil";
+import FilterSkill from "./Components/FilteredSkill/FilterSkill";
 
 
 const App = () => {
@@ -16,9 +17,10 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      {/* <FilterSkill/> */}
       <Skil />
       <Service />
-      <Certificate />
+      {/* <Certificate /> */}
       <Contact />
       <Footer />
     </div>

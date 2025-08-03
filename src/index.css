@@ -4,6 +4,7 @@
   font-family: "Poppins", sans-serif;
   margin: 0px;
   padding: 0px;
+    
 }
 
 /* body{
@@ -14,18 +15,15 @@
     color: white;
 } */
 
-body,
-html {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  overflow-x: hidden; /* Prevent horizontal scroll */
+body {
+  /* margin: 0;
+  padding: 0; */
+ 
 
-  background-color: rgb(2, 16, 29);
-  /* background-color: rgba(0, 0, 65, 0.137); */
-
+  background-color: rgb(1, 7, 13);
   backdrop-filter: blur(10px);
-
+overflow-x: hidden;
+  backdrop-filter: blur(10px);
   color: white;
   font-family: "Segoe UI", sans-serif;
 }

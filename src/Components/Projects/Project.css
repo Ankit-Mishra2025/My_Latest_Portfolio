@@ -1,10 +1,10 @@
 .projects {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content:flex-start;
+  align-items:center;
   flex-direction: column;
-  gap: 80px;
-  margin: 80px 100px;
+  margin: 40px;
+ gap:50px;
 }
 
 .projects-title h1 {
@@ -15,64 +15,70 @@
   -webkit-text-fill-color: transparent;
 }
 
-.projects-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 25px;
-}
-
-.project-format {
+.projects-container{
   display: flex;
-  flex-direction: column;
-  border: 1px solid white;
-  border-radius: 10px;
-  transition: 1.2s;
-  cursor: pointer;
-  padding: 10px 15px;
+  flex-wrap: wrap;
+ gap:20px;
+
+
 }
 
-.project-format h2 {
-  font-size: 23px;
-  font-weight: 800;
-  background: linear-gradient(270deg, #da7c25 50%, #b923e1 106.28%);
+
+.hoverProject{
+  display: flex;
+ width: 360px;
+  flex-direction:row ;
+  justify-content: center;
+  align-items: center;
+ margin-top: 20px;
+ box-shadow: 0px 1px 2px rgb(0, 202, 0);
+ margin-left: 20px;
+ background-color: rgba(1, 7, 13, 0.751);
+backdrop-filter: blur(20px);
+border-radius: 12px;
+transition: 0.5s;
+cursor: grabbing;
+}
+
+.hoverProject:hover{
+transform: scale(1.02);
+box-shadow: 0px 2px 10px rgb(142, 211, 3);
+}
+
+
+.project-format img{
+height: 250px;
+  width: 360px;
+  border-radius: 8px;
+}
+
+.project-format h2{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+   background: linear-gradient(270deg, #da7c25 0.09%, #ba0cea 90.28%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
+}
+.project-format p{
+font-size: 15px;
+font-weight: 400;
+ color: rgba(224, 224, 224, 0.79);
+margin-left: 10px;
 }
 
-.project-format img {
-  height: 180px;
-  width: 100%;
-  border-radius: 10px;
-  object-fit: fill;
-  margin: auto;
-  margin-top: 0%;
-}
 
-.project-format:hover {
-  border: 2px solid #ff00ff;
-  /* background-image: linear-gradient(45deg, #6e0146,#582300); */
- 
-  transform: translateY(-3%);
- 
-  box-shadow: 0.5px 0.25px 15px rgb(179, 0, 0), 2px -2px 10px rgb(0, 0, 196);
-}
 
-.project-format p {
-  font-size: 13.5px;
-  font-weight: 500;
-}
-
-.projects-readmore {
-  display: flex;
-  margin-top: 20px;
-}
 
 .explore-btn {
   display: flex;
-  gap: 10px;
+  gap:70px;
   margin-top: 10px;
+margin-left: 30px;
+padding: 8px 10px;
+ 
+
 }
 
 .explore-btn button a {
@@ -82,38 +88,39 @@
 }
 
 .getCodeBtn button {
-  padding: 10px;
   border-radius: 10px;
   background: rgb(117, 191, 255);
   outline: none;
   border: none;
   cursor: pointer;
   outline: none;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 12px;
   transition: 0.3s;
-  padding: 10px;
   display: flex;
-  gap: 10px;
+  gap: 5px;
+    padding: 8px;
+    transition: 0.5s;
+    margin-bottom: 3px;
 }
 
 .getCodeBtn button > a {
-  color: black;
+  color: rgb(48, 47, 47);
 }
 
 .demo-btn {
   background: rgb(118, 187, 0);
-  padding: 10px;
   border-radius: 10px;
   outline: none;
   border: none;
   cursor: pointer;
-  font-weight: 600;
-  font-size: 14px;
-  transition: 0.3s;
-  padding: 10px;
-  display: flex;
-  gap: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  transition: 0.5s;
+  padding: 5px;
+  margin-bottom: 3px;
+
+ 
 }
 
 .getCodeBtn button:hover {
@@ -126,7 +133,7 @@
   transform: translateY(-3%);
 }
 
-@media (max-width: 770px) {
+ @media (max-width: 770px) {
   .projects-title h1 {
     font-size: 46px;
     text-align: center;
@@ -134,13 +141,10 @@
   }
 
   .projects-container {
-    /* display: flex;
-    flex-direction: column;
-    gap: 30px; */
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 320px;
-    min-width: 290px;
+
+    width: 90vw;
+   
+
   }
 
   .project-format img {
@@ -151,4 +155,4 @@
     margin: auto;
     margin-top: 0%;
   }
-}
+}  
