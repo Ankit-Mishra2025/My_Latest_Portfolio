@@ -146,7 +146,7 @@ height: 380px;
   }
 
   .hoverProject {
-   width: 280px;
+   width: 300px;
    min-width: 270px;
    margin-right: 10px;
    padding: 0px 5px;
@@ -156,11 +156,11 @@ height: 380px;
     font-size: 19px;
   }
   .project-format p {
-    font-size: 13px;
+    font-size: 14px;
   }
   .project-format img {
     height: 350px;
-     width: 282px;
+     width: 300px;
    min-width: 270px;
   }
 
@@ -172,11 +172,11 @@ height: 380px;
   }
 
   .getCodeBtn button{
-    padding: 5px;
+    padding: 7px;
 
   }
   .demo-btn button{
-    padding: 5px;
+    padding: 7px;
    
   }
 }

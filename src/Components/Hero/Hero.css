@@ -181,7 +181,7 @@ width: 100%;
   }
 
   .left_hero h1{
-    font-size: 36px;
+    font-size: 38px;
     width: 100vw;
     margin-top: 90px;
   }
@@ -190,7 +190,7 @@ width: 100%;
     font-size: 40px;
     font-weight: 600;
     width: 100vw;
-    margin-left: 50px;
+    margin-left: 52px;
   }
 
   .heroPara{
@@ -209,7 +209,7 @@ width: 100%;
   font-weight: 400;
 }
   .heroPara h4 span{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
   }
 
@@ -232,7 +232,13 @@ flex-direction: column;
   margin-top: 60px;
 }
 .hero_connect button{
-  padding: 8px;
+  padding: 8px 5px;
+}
+.heroResume button{
+   padding: 8px 5px;
+}
+.viewProject button{
+   padding: 8px 5px;
 }
 .viewProject{
   margin-top: 20px;

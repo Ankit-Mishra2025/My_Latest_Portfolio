@@ -81,8 +81,8 @@ const Footer = () => {
     <div className="hoverServices"><h2>Web Development</h2>
   <p>Modern web application using frameworks</p></div>
 <div className="hoverServices" > <h2>Front-End & UI/UX Design</h2>
-  <p>Crafting and designing fresh and smooth responive design</p></div>
- <div className="hoverServices"><h2>Backedn Development</h2>
+  <p>Craft and design smooth and pixels perfect design</p></div>
+ <div className="hoverServices"><h2>Backend Development</h2>
   <p>Learning and creating backend web applications</p></div>
   
 </div>

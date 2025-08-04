@@ -140,7 +140,7 @@ width: 500px;
   backdrop-filter: blur(20px);
   border-radius: 8px;
   box-shadow: 0px 0px 2px #f57600;
-  cursor: pointer;
+  cursor: grabbing;
 }
 
 .contact-right h2{
@@ -234,7 +234,7 @@ max-width: 40vw;
 
 @media (max-width: 770px) {
   .contact-title h1 {
-    font-size: 40px;
+    font-size: 43px;
     min-width: 200px;
     width: 100vw;
     margin-left: 60px;

@@ -1,77 +1,68 @@
-
 .footer-container {
   display: flex;
-align-items: center;
-gap:80px;
-   background-color: rgba(2, 16, 29, 0.644);
-   backdrop-filter: blur(50px);
+  align-items: center;
+  gap: 80px;
+  background-color: rgba(2, 16, 29, 0.644);
+  backdrop-filter: blur(50px);
   padding: 40px 20px;
-    box-shadow: 0px -0.20px 2px orange;
-    border-radius: 2px;
-position:static;
-
-
+  box-shadow: 0px -0.2px 2px orange;
+  border-radius: 2px;
+  position: static;
 }
 
 .footer {
   display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
- 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.information{
+.information {
   display: flex;
   flex-direction: column;
-width: 450px;
-
+  width: 450px;
 }
 
-.informationFooter{
+.informationFooter {
   display: flex;
+  flex-direction: row;
 }
 
-.information h1{
-   background: linear-gradient(270deg, #da7c25 0.36%, #8f09b4);
+.information h1 {
+  background: linear-gradient(270deg, #da7c25 0.36%, #8f09b4);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 22px;
   border-radius: 30px;
- font-weight: 500;
+  font-weight: 500;
 }
-.information img{
+.information img {
   height: 45px;
   width: 45px;
   border-radius: 50px;
-
 }
-.informationFooter p{
-  font-size: 13px;
-  position:relative;
-   top: 8px;
-  right:30%; 
-font-weight: 400;
- color: rgb(193, 191, 191);
-
+.informationFooter p {
+  font-size: 14px;
+  position: relative;
+  top: 8px;
+  right: 30%;
+  font-weight: 400;
+  color: rgb(193, 191, 191);
 }
-.informationFooter p span{
- background: linear-gradient(270deg,orange 0.36%,rgb(216, 20, 183)80%);
+.informationFooter p span {
+  background: linear-gradient(270deg, orange 0.36%, rgb(216, 20, 183) 80%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-font-weight: 500;
+  font-weight: 500;
 }
 
-.information p{
+.information p {
   font-size: 14px;
   font-weight: 300;
-  width:250px;
+  width: 250px;
   margin-top: 20px;
-   color: rgba(224, 224, 224, 0.79);
-
+  color: rgba(224, 224, 224, 0.79);
 }
-
-
 
 .link {
   display: flex;
@@ -79,9 +70,9 @@ font-weight: 500;
   margin-top: 20px;
 }
 
-.link a{
-  height: 35px;
-  width: 35px;
+.link a {
+  height: 40px;
+  width: 40px;
   border-radius: 17px;
   display: flex;
   justify-content: center;
@@ -90,48 +81,44 @@ font-weight: 500;
   backdrop-filter: blur(10px);
   cursor: grab;
   transition: 0.5s;
-  
 }
 
-.link i{
-  font-size: 23px;
-color: white;
-
+.link i {
+  font-size: 25px;
+  color: rgba(158, 158, 158, 0.751);
 }
 
-.link a:hover{
+.link a:hover {
   transform: scale(1.05);
   box-shadow: 0px 0px 20px orange;
   border: 1px solid green;
 }
 
-.quickLinks{
- margin-right: 55%;
+.quickLinks {
+  margin-right: 55%;
   display: flex;
   flex-direction: column;
-  gap:15px;
+  gap: 15px;
 }
-.quickLinks h2{
+.quickLinks h2 {
   font-size: 18px;
   font-weight: 500;
 }
-.quickLinks>ul{
-     display: flex;
-    gap:10px;
-    flex-direction: column;
-    margin-left: 15px;
-     
+.quickLinks > ul {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-left: 15px;
 }
 .quickLinks li {
   list-style-type: none;
   font-size: 15px;
   font-weight: 400;
- 
 }
 
 .anchorLink {
   color: rgba(224, 224, 224, 0.79);
-  transition:0.5s;
+  transition: 0.5s;
 }
 
 .anchorLink:hover {
@@ -146,42 +133,38 @@ color: white;
   display: flex;
   flex-direction: column;
   gap: 25px;
-  
- 
 }
-.services h1{
+.services h1 {
   font-size: 20px;
   font-weight: 400;
   margin-top: 10px;
-
 }
-.services h2{
+.services h2 {
   font-size: 15px;
-    margin-left: 15px;
-    font-weight: 400;
-     color: rgb(237, 233, 233);
+  margin-left: 15px;
+  font-weight: 400;
+  color: rgb(237, 233, 233);
 }
 
-.services p{
+.services p {
   font-size: 13px;
   font-weight: 400;
-    margin-left: 16px;
-    color: rgba(224, 224, 224, 0.79);
-  
+  margin-left: 16px;
+  color: rgba(224, 224, 224, 0.79);
 }
 
-.hoverServices:hover{
+.hoverServices:hover {
   padding: 10px 5px;
   background-color: rgba(69, 146, 213, 0.292);
   border-radius: 10px;
-   cursor: pointer;
+  cursor: pointer;
   transition: 0.5s;
   font-weight: 600;
   box-shadow: 0px 0px 2px orange;
   transform: translateY(1.04%);
 }
 
-.hoverServices h2:hover{
+.hoverServices h2:hover {
   color: rgb(255, 166, 0);
   font-weight: 600;
 }
@@ -191,87 +174,82 @@ color: white;
   flex-direction: column;
   margin-top: 15px;
   margin-left: 20px;
-  gap:12px;
+  gap: 12px;
   cursor: pointer;
   transition: 0.5s;
   max-width: 230px;
 }
 
-.contactInformation h1{
+.contactInformation h1 {
   font-size: 17px;
   font-weight: 400;
   color: white;
 }
-.contactInformation p{
+.contactInformation p {
   font-size: 13px;
   font-weight: 400;
-    color: rgba(224, 224, 224, 0.79);
+  color: rgba(224, 224, 224, 0.79);
 }
 
-.contactHover:hover{
-   padding: 5px 8px;
+.contactHover:hover {
+  padding: 5px 8px;
   /* background-color: rgba(69, 146, 213, 0.292); */
   border-radius: 10px;
-   cursor: pointer;
+  cursor: pointer;
   transition: 0.5s;
   font-weight: 600;
   box-shadow: 0px 0px 2px orange;
 }
 
-.contactHover h1:hover{
-   color: rgb(255, 166, 0);
+.contactHover h1:hover {
+  color: rgb(255, 166, 0);
   font-weight: 600;
 }
 
-.footerLast  {
-
-display: flex;
-flex-direction: column;
-margin-top: 50px;
-width: 100%;
-
-
-
+.footerLast {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 100%;
 }
 
-.footerLast h1{
+.footerLast h1 {
   font-size: 17px;
   text-align: center;
   font-weight: 300;
   text-align: center;
 }
-.footerLast p{
-   color: rgba(224, 224, 224, 0.79);
-   text-align: center;
+.footerLast p {
+  color: rgba(224, 224, 224, 0.79);
+  text-align: center;
 }
 
-.upHome{
+.upHome {
   display: flex;
-   transition: 0.8s;
-   margin-top: 15px;
-   margin-left: 5px;
-   align-items: center;
- 
+  transition: 0.8s;
+  margin-top: 15px;
+  margin-left: 5px;
+  align-items: center;
 }
 
-.upHome i{
+.upHome i {
   height: 50px;
-    width: 50px;
-    border-radius: 25px;
-    color: #f0f8ff;
-   background-color: rgb(226, 147, 1);
-    box-shadow: -1px -5px 20px rgb(0, 255, 17);
-    cursor:pointer;
-    font-size: 22px;
-  
-margin-top: 20px;
+  width: 50px;
+  border-radius: 25px;
+  color: #f0f8ff;
+  background-color: rgb(226, 147, 1);
+  box-shadow: -1px -5px 20px rgb(0, 255, 17);
+  cursor: pointer;
+  font-size: 22px;
 
-     animation: bounce 2s infinite;
-  
+  margin-top: 20px;
+
+  animation: bounce 2s infinite;
 }
 
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -292,42 +270,39 @@ margin-top: 20px;
     margin-left: 0px;
   }
 
-  .contactInformation{
+  .contactInformation {
     margin-right: 80px;
     display: flex;
- 
   }
- 
-  .services{
+
+  .services {
     display: flex;
     flex-direction: column;
   }
-  .hoverServices{
+  .hoverServices {
     max-width: 250px;
   }
-.footerLast{
-  position:relative;
-  bottom: 0;
-  max-width: 250px;
-  margin-bottom: 30px;
-}
- .footerLast h1{
-width:100vw;
-  font-size: 15px;
-  text-align: center;
- margin-top: 10px;
- 
- }
- .footerLast p{
-  width: 100vw;
-  font-size: 15px;
-  margin-top: 10px;
- max-width: 300px;
- }
+  .footerLast {
+    position: relative;
+    bottom: 0;
+    max-width: 250px;
+    margin-bottom: 30px;
+  }
+  .footerLast h1 {
+    width: 100vw;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .footerLast p {
+    width: 100vw;
+    font-size: 15px;
+    margin-top: 10px;
+    max-width: 300px;
+  }
 
- .upHome{
-  position: relative;
-  top:0
- }
-
+  .upHome {
+    position: relative;
+    top: 0;
+  }
 }
