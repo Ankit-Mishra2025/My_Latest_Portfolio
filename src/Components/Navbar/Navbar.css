@@ -11,41 +11,35 @@
   padding: 14px 10px;
   border-radius: 12px;
   box-shadow: 0px 0.2px 2px orange;
-
+  cursor: pointer;
 }
 
-.nav-menu{
+.nav-menu {
   margin-right: 40px;
+ 
 }
 
 .modeBtn {
   display: flex;
- width: 25px;
- height: 28px;
-align-items: center;
-justify-content: center;
- position:absolute;
- top:23px;
- right: 20px;
+  width: 25px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 23px;
+  right: 20px;
   cursor: pointer;
   transition: 0.3s;
   background-color: transparent;
   border: 1px solid rgb(255, 166, 0);
   outline: none;
   border-radius: 5px;
-
- 
 }
 
 .modeBtn i {
-
   font-size: 19px;
-color: white;
-  
+  color: white;
 }
-
-
-
 
 .logoName {
   display: flex;
@@ -92,24 +86,22 @@ color: white;
   cursor: pointer;
   display: none;
   transition: 0.3s;
-
 }
 
 /* Sidebar for mobile */
 .side-menu {
   position: fixed;
   top: 0px;
-  right: -110%;
+  right: -100%;
   width: 200px;
-  height: 60vh;
+  height: 80vh;
   background: rgb(1, 31, 58);
-  /* backdrop-filter: blur(15px); */
- 
+cursor: pointer;
   padding: 60px 20px;
   transition: left 2s;
   transition-duration: 5s;
   border-radius: 10px;
-  z-index: -9;
+z-index: 10;
 }
 
 .side-menu.show {
@@ -126,7 +118,6 @@ color: white;
   font-size: 19px;
   color: #da7c25;
 }
-
 
 /* Responsive */
 
@@ -150,12 +141,12 @@ color: white;
 .nav-menu .anchorLink {
   display: flex;
   flex-direction: column;
-  cursor: pointer;
+  cursor: grabbing;
 }
 
 .anchorLink {
   text-decoration: none;
-  cursor: grabbing;
+  cursor: pointer;
   color: red;
 }
 
@@ -170,6 +161,7 @@ color: white;
     font-size: 18px;
     border-radius: 3px;
     margin-right: 20px;
+    cursor: pointer;
   }
   .modeBtn {
     position: fixed;
