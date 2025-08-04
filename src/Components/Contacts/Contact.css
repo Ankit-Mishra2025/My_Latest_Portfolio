@@ -126,7 +126,6 @@ border-radius: 5px;
 }
 
 .contact-right {
- 
 width: 500px;
   display: flex;
   flex-direction: column;
@@ -141,6 +140,7 @@ width: 500px;
   border-radius: 8px;
   box-shadow: 0px 0px 2px #f57600;
   cursor: grabbing;
+  transition: linear 0.5;
 }
 
 .contact-right h2{
@@ -152,8 +152,8 @@ width: 500px;
   font-size: 28px;
 }
 .contact-right:hover {
-  box-shadow:  0px 0px 5px #f57600;
-  transform: translateY(-3%);
+  box-shadow:  0px 2px 5px #f57600;
+  transform: scale(1.20);
 }
 
 .contact-right label {
@@ -181,6 +181,12 @@ width: 500px;
   font-weight: 400;
   color:#8282a5e7; 
 }
+
+.contact-right input:hover{
+   box-shadow: 0px 0px 3px orange;
+  border: 1px solid rgb(202, 132, 1);
+  transform: translateX(1.10%);
+}
 .contact-right textarea::placeholder{
   font-size:15px;
   font-weight: 400;
@@ -188,10 +194,7 @@ width: 500px;
   margin-left: 5px;
   color:#8282a5e7; 
 }
-.contact-right input:hover{
-  box-shadow:  0px 0px 1px #f57600;
-  border: 1px solid  #f57600;
-}
+
 .contact-right textarea {
   padding: 10px;
   border: none;
@@ -206,8 +209,11 @@ max-width: 40vw;
 }
 
 .contact-right textarea:hover{
- box-shadow:  0px 0px 1px #f57600;
+
   border: 1px solid  #f57600;
+    box-shadow: 0px 0px 3px orange;
+  border: 1px solid rgb(202, 132, 1);
+  transform: translateX(1.10%);
 }
 
 .contact-submit {
