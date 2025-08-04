@@ -103,18 +103,18 @@ const Footer = () => {
   </div>
         </div>
        
-            <div className="footerLast">
-              
+         
+       
+        </div>
+         <div className="footerLast">
+              <h1>Build with Passion😊 & Creativity by nature ❤️</h1>
+          <p>@2025 All Right reserved in Ankit Mishra</p>
                <div className="upHome">
                 <a href="#home"><i class="fas fa-arrow-up"></i></a>
                 
                </div>
-          <h1>Build with Passion😊 & Creativity by nature ❤️</h1>
-          <p>@All Right reserved in Ankit Mishra</p>
+          
         </div>
-       
-        </div>
-      
     </>
   );
 };

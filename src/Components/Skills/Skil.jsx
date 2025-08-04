@@ -16,16 +16,17 @@ const Skil = () => {
         // whileInView={{x:0,y:0,opacity:1}}
         // viewport={{once:false,amount:0.8}}
       >
-        <motion.h1
+        <motion.div
           className="skills"
           initial={{ x: 50, y: -50, opacity: 0 }}
           whileInView={{ y: 0, x: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: easeInOut }}
           viewport={{ once: false, amount: 0.2 }}
         >
-          My Skills
-           <p style={{"textAlign":"center","fontSize":"24px"}}>Frontend ,Backend & Tools</p>
-        </motion.h1>
+
+      <h1>Skills & Learnings</h1>
+           <p>Frontend ,Backend & Tools</p>
+        </motion.div>
        
         {/* <h1 className="skills">My Skills</h1> */}
 

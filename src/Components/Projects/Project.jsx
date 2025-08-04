@@ -46,9 +46,12 @@ duration={{duration:0.8}}
                       </a>
                     </button>
                   </div>
-                  <button className="demo-btn">
+                  <div className="demo-btn">
+  <button >
                     <i class="fas fa-external-link-alt"></i> <a>View Demo</a>
                   </button>
+                  </div>
+                
                 </div>
                  </div>
 

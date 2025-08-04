@@ -1,8 +1,8 @@
 import Gemini from "../assets/gemini.jpg";
 import Portal from "../assets/portal.jpg";
 import Netflix from "../assets/Netflix.png";
-import movie from "../assets/Movie.png";
-import watch from "../assets/Digitalwatch.png";
+import movie from "../assets/cinema.jpg";
+import portfolio from "../assets/portfolio.png";
 import imageSearch from "../assets/Image search.png";
 
 const Project_Data = [
@@ -12,7 +12,7 @@ const Project_Data = [
     s_name: "Google Gemini Replica",
     s_img: Gemini,
     s_desc:
-      "Build google gemini replica using React js tailwind css and google gemini api,helped me to enhance my API intergration skill."
+      "Build google gemini replica using React js tailwind css and google gemini api,helped me to enhance my API skill."
   },
 
   {
@@ -35,7 +35,7 @@ const Project_Data = [
 
   {
     s_no: "04",
-    s_name: "Responsive Movie Landing Page",
+    s_name: " Movie Landing Page",
     s_img: movie,
     s_desc:
       "Created and design a Movie website by using HTML,CSS and Javascript.Helped me to enhance my CSS skills",
@@ -45,12 +45,12 @@ const Project_Data = [
 
   {
     s_no: "05",
-    s_name: "Digital Watch",
-    s_img: watch,
+    s_name: "Portfolio Webiste",
+    s_img: portfolio,
     s_desc:
-      "Create a digital watch during my front-end development journey to deep dive in javascript concepts",
+      "A Modern portfolio website to showcasing my skills and projects using React JS and framer...",
     s_git:
-      "https://github.com/Ankit-Mishra2025/Javascript_Mini_Projects_Practice/tree/main/Analog%20Watch",
+      "",
   },
 
   {
@@ -58,7 +58,7 @@ const Project_Data = [
     s_name: "Image Search Engine",
     s_img: imageSearch,
     s_desc:
-      "During this project I created a image search engine which was assigned to me during my internship project by using JS and pexels API",
+      "A  dynamic image search enginge powerded by JavaScript and pixels API intergration..",
     s_git: "",
   },
 ];

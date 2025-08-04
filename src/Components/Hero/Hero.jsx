@@ -45,12 +45,18 @@ const Hero = () => {
           />
         </h2>
                <div className="heroPara">
-<p>
-          I'm a <span style= {{"textIndent": "60px","padding":"20px 0px"}}> Web developer</span> 
-           I completed my Diploma <span >in Computer Science</span>  and graduated, I am a web developer with expertise in <span style={{"textIndent": "20px","padding":"20px 0px"}}> React,JavaScript and Tailwind Css</span> currently Learning <span> backend development with MERN</span>.Passionate about <span>creating a better user experience</span> and quick learner
+                <div className="para">
+<h4>
+ I'm a <span style= {{"textIndent": "60px","padding":"20px 0px"}}> Web developer </span>   
+           I've completed my Diploma <span >in Computer Science</span>  and graduated, I am a web developer with expertise in <span style={{"textIndent": "20px","padding":"20px 0px"}}> React,JavaScript and Tailwind Css</span> and  currently learning <span> backend development with MERN stack</span> .Passionate about <span>creating a pixels perfect design</span> 
+
+</h4>
+         
           
        
-        </p>
+        
+                </div>
+
         </div>
         
            <div className="hero_action">

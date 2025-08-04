@@ -34,7 +34,7 @@ const Contact = () => {
       <div className="contact" id="contact">
         <motion.div
           className="contact-title"
-          initial={{ x: -50, y: -50, opacity: 0 }}
+          initial={{ x: -20, y: 20, opacity: 0 }}
           whileInView={{ x: 0, y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: easeOut }}
           viewport={{ once: false, amount: 0.8 }}

@@ -8,6 +8,7 @@ gap:80px;
   padding: 40px 20px;
     box-shadow: 0px -0.20px 2px orange;
     border-radius: 2px;
+position:static;
 
 
 }
@@ -87,7 +88,7 @@ font-weight: 500;
   align-items: center;
   background-color: rgba(112, 180, 239, 0.301);
   backdrop-filter: blur(10px);
-  cursor: pointer;
+  cursor: grab;
   transition: 0.5s;
   
 }
@@ -108,7 +109,7 @@ color: white;
  margin-right: 55%;
   display: flex;
   flex-direction: column;
-  gap:15px
+  gap:15px;
 }
 .quickLinks h2{
   font-size: 18px;
@@ -170,13 +171,14 @@ color: white;
 }
 
 .hoverServices:hover{
-  padding: 3px 5px;
+  padding: 10px 5px;
   background-color: rgba(69, 146, 213, 0.292);
   border-radius: 10px;
    cursor: pointer;
   transition: 0.5s;
   font-weight: 600;
   box-shadow: 0px 0px 2px orange;
+  transform: translateY(1.04%);
 }
 
 .hoverServices h2:hover{
@@ -187,11 +189,12 @@ color: white;
 .contactInformation {
   display: flex;
   flex-direction: column;
-  margin-top: 12px;
-  margin-left: 45px;
+  margin-top: 15px;
+  margin-left: 20px;
   gap:12px;
   cursor: pointer;
   transition: 0.5s;
+  max-width: 230px;
 }
 
 .contactInformation h1{
@@ -207,7 +210,7 @@ color: white;
 
 .contactHover:hover{
    padding: 5px 8px;
-  background-color: rgba(69, 146, 213, 0.292);
+  /* background-color: rgba(69, 146, 213, 0.292); */
   border-radius: 10px;
    cursor: pointer;
   transition: 0.5s;
@@ -221,12 +224,12 @@ color: white;
 }
 
 .footerLast  {
-position: absolute;
+
 display: flex;
 flex-direction: column;
 margin-top: 50px;
 width: 100%;
-margin-top: 40%;
+
 
 
 }
@@ -243,22 +246,26 @@ margin-top: 40%;
 }
 
 .upHome{
+  display: flex;
    transition: 0.8s;
-   margin-top: 5px;
-   margin-left: 30px;
+   margin-top: 15px;
+   margin-left: 5px;
+   align-items: center;
+ 
 }
 
 .upHome i{
-  height: 45px;
-    width: 45px;
-    border-radius: 22px;
+  height: 50px;
+    width: 50px;
+    border-radius: 25px;
     color: #f0f8ff;
    background-color: rgb(226, 147, 1);
-   text-align: center;
     box-shadow: -1px -5px 20px rgb(0, 255, 17);
     cursor:pointer;
     font-size: 22px;
-    
+  
+margin-top: 20px;
+
      animation: bounce 2s infinite;
   
 }
@@ -274,9 +281,6 @@ margin-top: 40%;
 
 @media (max-width: 770px) {
   .footer-container {
-    /* width: 100vw;
-    display: flex;
-    flex-direction: column; */
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -294,6 +298,13 @@ margin-top: 40%;
  
   }
  
+  .services{
+    display: flex;
+    flex-direction: column;
+  }
+  .hoverServices{
+    max-width: 250px;
+  }
 .footerLast{
   position:relative;
   bottom: 0;
@@ -302,7 +313,7 @@ margin-top: 40%;
 }
  .footerLast h1{
 width:100vw;
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
  margin-top: 10px;
  
@@ -311,7 +322,7 @@ width:100vw;
   width: 100vw;
   font-size: 15px;
   margin-top: 10px;
- 
+ max-width: 300px;
  }
 
  .upHome{

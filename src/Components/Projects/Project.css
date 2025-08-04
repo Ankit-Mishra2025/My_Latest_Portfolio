@@ -3,7 +3,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  margin: 80px;
+  margin: 70px;
   gap: 50px;
 }
 
@@ -13,6 +13,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: 50px;
 }
 
 .projects-container {
@@ -21,12 +22,11 @@
   gap: 20px;
 }
 
+
 .hoverProject {
   display: flex;
-  width: 340px;
+  width: 325px;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   margin-top: 20px;
   box-shadow: 0px 1px 2px rgb(0, 202, 0);
   margin-left: 20px;
@@ -44,8 +44,9 @@
 
 .project-format img {
   height: 250px;
-  width: 340px;
+  width: 325px;
   border-radius: 8px;
+  
 }
 
 .project-format h2 {
@@ -66,8 +67,8 @@
 
 .explore-btn {
   display: flex;
-  gap: 70px;
-  margin-top: 10px;
+  gap: 50px;
+ margin-top: 40px;
   margin-left: 30px;
   padding: 8px 10px;
 }
@@ -75,31 +76,36 @@
 .explore-btn button a {
   list-style-type: none;
   text-decoration: none;
-  color: white;
+ color: white;
 }
 
 .getCodeBtn button {
   border-radius: 10px;
-  background: rgb(117, 191, 255);
+  background: rgb(100, 148, 189);
   outline: none;
   border: none;
-  cursor: pointer;
+  cursor:grabbing;
   outline: none;
   font-weight: 400;
   font-size: 12px;
   transition: 0.3s;
   display: flex;
   gap: 5px;
-  padding: 8px;
+    padding: 8px 12px;
   transition: 0.5s;
-  margin-bottom: 3px;
+ 
+  color: rgba(224, 218, 218, 0.589);
+  font-weight: 400;
+  font-size: 13px;
+  cursor: grabbing;
 }
 
-.getCodeBtn button > a {
-  color: rgb(48, 47, 47);
+.getCodeBtn i{
+  font-size: 15px;
+  color: rgb(54, 43, 43);
 }
 
-.demo-btn {
+.demo-btn button {
   background: rgb(118, 187, 0);
   border-radius: 10px;
   outline: none;
@@ -108,8 +114,8 @@
   font-weight: 400;
   font-size: 12px;
   transition: 0.5s;
-  padding: 5px;
-  margin-bottom: 3px;
+  padding: 8px 15px;
+ 
 }
 
 .getCodeBtn button:hover {
@@ -117,30 +123,33 @@
   transform: translateY(-3%);
 }
 
-.demo-btn:hover {
+.demo-btn button:hover {
   border: 2px solid blue;
   transform: translateY(-3%);
 }
 
 @media (max-width: 770px) {
   .projects-title h1 {
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
-    min-width: 200px;
+   width: 100vw;
+   margin-top: 100px;
   }
 
   .project-format {
-    /* width: 280px;
-max-height: 450px;
-min-width: 280px; */
-    /* display: grid;
-grid-template-columns: 1fr;
-min-width: 300px; */
+     /* display: grid;
+grid-template-columns: 1fr; */
+display: flex;
+flex-direction: column;
+height: 380px;
+
   }
 
   .hoverProject {
-    height: 450px;
-    width: 320px;
+   width: 280px;
+   min-width: 270px;
+   margin-right: 10px;
+   padding: 0px 5px;
   }
 
   .project-format h2 {
@@ -150,7 +159,24 @@ min-width: 300px; */
     font-size: 13px;
   }
   .project-format img {
-    height: 300px;
-    width: 320px;
+    height: 350px;
+     width: 282px;
+   min-width: 270px;
+  }
+
+  .explore-btn{
+
+   display: flex;
+   width: 100%;
+  
+  }
+
+  .getCodeBtn button{
+    padding: 5px;
+
+  }
+  .demo-btn button{
+    padding: 5px;
+   
   }
 }

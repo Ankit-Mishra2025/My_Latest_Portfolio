@@ -71,15 +71,11 @@ const Navbar = () => {
               Contact
             </AnchorLink>
           </li>
+
+          
         </ul>
 
-        <button onClick={handleMode} className="modeBtn">
-          {mode ? (
-            <i class="fa-regular fa-moon moon"></i>
-          ) : (
-            <i class="fa-regular fa-sun sun"></i>
-          )}
-        </button>
+       
 
         <button onClick={handleNav} className="menu-btn">
           {!nav ? (
@@ -88,7 +84,17 @@ const Navbar = () => {
             <i className="fa-solid fa-xmark"></i>
           )}
         </button>
+
+ <button onClick={handleMode} className="modeBtn">
+          {mode ? (
+            <i class="fa-regular fa-moon moon"></i>
+          ) : (
+            <i class="fa-regular fa-sun sun"></i>
+          )}
+        </button>
+        
       </motion.div>
+
 
       {/* Sidebar Sliding Menu */}
       <div className={`side-menu ${nav ? "show" : ""}`}>
