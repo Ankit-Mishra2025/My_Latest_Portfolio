@@ -91,14 +91,14 @@
 /* Sidebar for mobile */
 .side-menu {
   position: fixed;
-  top: 0px;
+  top: 80px;
   right: -100%;
   width: 200px;
   height: 50vh;
   background: rgb(1, 31, 58);
 cursor: pointer;
   padding: 60px 20px;
-  transition: left 2s;
+  transition: left 0.5s;
   transition-duration: 5s;
   border-radius: 10px;
 z-index: 10;
