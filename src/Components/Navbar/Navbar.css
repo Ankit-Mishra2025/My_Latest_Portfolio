@@ -11,6 +11,7 @@
   padding: 14px 10px;
   border-radius: 12px;
   box-shadow: 0px 0.2px 2px orange;
+
 }
 
 .nav-menu{
@@ -91,21 +92,24 @@ color: white;
   cursor: pointer;
   display: none;
   transition: 0.3s;
+
 }
 
 /* Sidebar for mobile */
 .side-menu {
   position: fixed;
-  top: 0;
-  right: -100%;
+  top: 0px;
+  right: -110%;
   width: 200px;
-  height: 80vh;
+  height: 60vh;
   background: rgb(1, 31, 58);
   /* backdrop-filter: blur(15px); */
+ 
   padding: 60px 20px;
   transition: left 2s;
   transition-duration: 5s;
   border-radius: 10px;
+  z-index: -9;
 }
 
 .side-menu.show {
