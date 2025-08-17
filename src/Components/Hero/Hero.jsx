@@ -48,7 +48,7 @@ const Hero = () => {
                 <div className="para">
 <h4>
  I'm a <span style= {{"textIndent": "60px","padding":"20px 0px"}}> Web developer </span>   
-           I've completed my Diploma <span >in Computer Science</span>  and graduated, I am a web developer with expertise in <span style={{"textIndent": "20px","padding":"20px 0px"}}> React,JavaScript and Tailwind Css</span> and  currently learning <span> backend development with MERN stack</span> .Passionate about <span>creating a pixels perfect design</span> 
+           I've completed my Diploma <span >in Computer Science</span>  and graduated, I am a web developer with expertise in <span style={{"textIndent": "20px","padding":"20px 0px"}}> React,JavaScript and Tailwind Css</span> and  currently learning <span> backend development with MERN stack</span> Passionate about <span>creating a pixels perfect design</span> 
 
 </h4>
          

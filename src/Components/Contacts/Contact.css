@@ -197,7 +197,7 @@ width: 500px;
 }
 
 .contact-right textarea {
-  padding: 10px;
+  padding: 10px 12px;
   border: 1px solid  #4a4a70 ;
   background: #3c3c55aa;
   color: #a0a0a0;
@@ -265,6 +265,7 @@ width: 500px;
     justify-content: center;
     align-items: center;
     margin: 10px 0px;
+    gap: 10px;
     
   }
 
@@ -319,8 +320,8 @@ margin: 10px 0px;
 
   .contact-right textarea {
   
-    padding: 15px 50px;
-  
+    padding:  20px;
+  width: 70vw;
     margin-right: 5px;
     background: #1b1b25;
     color: #a0a0a0;

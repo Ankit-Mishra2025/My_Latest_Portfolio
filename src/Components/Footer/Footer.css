@@ -77,7 +77,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(112, 180, 239, 0.301);
+  background-color: rgba(112, 180, 239, 0.429);
   backdrop-filter: blur(10px);
   cursor: grab;
   transition: 0.5s;
@@ -85,7 +85,7 @@
 
 .link i {
   font-size: 25px;
-  color: rgba(158, 158, 158, 0.751);
+  color: rgba(158, 158, 158, 0.824);
 }
 
 .link a:hover {
@@ -229,7 +229,7 @@
 .footerLast a span {
   text-decoration: none;
   color: orange;
-  font-weight: 500;
+  font-weight: 550;
 }
 
 .footerLast a {
@@ -303,7 +303,7 @@
   }
   .footerLast h1 {
     width: 100vw;
-   
+
     font-size: 15px;
     text-align: center;
     margin-top: 10px;
