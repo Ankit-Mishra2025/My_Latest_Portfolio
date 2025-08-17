@@ -1,13 +1,13 @@
 .footer-container {
   display: flex;
   align-items: center;
-  gap: 80px;
-  background-color: rgba(2, 16, 29, 0.644);
+  /* background-color: rgba(2, 16, 29, 0.644); */
   backdrop-filter: blur(50px);
-  padding: 40px 20px;
+  padding: 40px 10px;
   box-shadow: 0px -0.2px 2px orange;
   border-radius: 2px;
-  position: static;
+  /* position: fixed; */
+  position: relative;
 }
 
 .footer {
@@ -71,8 +71,8 @@
 }
 
 .link a {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   border-radius: 17px;
   display: flex;
   justify-content: center;
@@ -209,8 +209,10 @@
 .footerLast {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 30px;
   width: 100%;
+  position: absolute;
+  gap: 5px;
 }
 
 .footerLast h1 {
@@ -224,18 +226,29 @@
   text-align: center;
 }
 
+.footerLast a span {
+  text-decoration: none;
+  color: orange;
+  font-weight: 500;
+}
+
+.footerLast a {
+  text-decoration: none;
+}
 .upHome {
   display: flex;
   transition: 0.8s;
-  margin-top: 15px;
+  position: relative;
+  bottom: 0;
+  /* margin-top: 250px; */
   margin-left: 5px;
   align-items: center;
 }
 
 .upHome i {
-  height: 50px;
-  width: 50px;
-  border-radius: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
   color: #f0f8ff;
   background-color: rgb(226, 147, 1);
   box-shadow: -1px -5px 20px rgb(0, 255, 17);
@@ -290,15 +303,16 @@
   }
   .footerLast h1 {
     width: 100vw;
+   
     font-size: 15px;
     text-align: center;
     margin-top: 10px;
   }
   .footerLast p {
     width: 100vw;
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 10px;
-    max-width: 300px;
+    min-width: 300px;
   }
 
   .upHome {

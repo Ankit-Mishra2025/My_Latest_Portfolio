@@ -34,10 +34,10 @@ const Contact = () => {
       <div className="contact" id="contact">
         <motion.div
           className="contact-title"
-          initial={{ x: -20, y: 20, opacity: 0 }}
-          whileInView={{ x: 0, y: 0, opacity: 1 }}
-          transition={{ duration: 1, ease: easeOut }}
-          viewport={{ once: false, amount: 0.8 }}
+          // initial={{ x: -20, y: 20, opacity: 0 }}
+          // whileInView={{ x: 0, y: 0, opacity: 1 }}
+          // transition={{ duration: 1, ease: easeOut }}
+          // viewport={{ once: false, amount: 0.8 }}
         >
           <h1>Get in touch </h1>
           <p>Your Next Dev is One Click Away 🚀</p>
@@ -58,18 +58,18 @@ const Contact = () => {
                 🚀
               </p>
               <a href="mailto:anki95081@gmail.com" target="_blank">
-                {" "}
+               
                 <i class="fas fa-envelope"></i> Email
               </a>
               <a href="https://github.com/Ankit-Mishra2025" target="_blank">
-                {" "}
+              
                 <i class="fab fa-github"></i> Github
               </a>
               <a
                 href="https://www.linkedin.com/in/ankit-mishra-7b3393310/"
                 target="_blank"
               >
-                {" "}
+              
                 <i class="fab fa-linkedin"></i> Linkedin
               </a>
             </div>
@@ -93,7 +93,7 @@ const Contact = () => {
           <motion.form
             className="contact-right"
             onSubmit={onSubmit}
-            initial={{ x: 80, y: -50, opacity: 0 }}
+            initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, y: 0, opacity: 1 }}
             transition={{ duration: 1, ease: easeOut }}
             viewport={{ once: false, amount: 0.5 }}

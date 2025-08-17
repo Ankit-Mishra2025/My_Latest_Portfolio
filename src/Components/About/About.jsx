@@ -7,10 +7,10 @@ const About = () => {
     <div className="about" id="aboutMe">
       <motion.div
         className="about-title"
-        initial={{ x: 50, y: -50, opacity: 0 }}
-        whileInView={{ y: 0, x: 0, opacity: 1 }}
-        transition={{ duration: 0.8, ease: easeInOut }}
-        viewport={{ once: false, amount: 0.2 }}
+        // initial={{ x: 50, y: -50, opacity: 0 }}
+        // whileInView={{ y: 0, x: 0, opacity: 1 }}
+        // transition={{ duration: 0.8, ease: easeInOut }}
+        // viewport={{ once: false, amount: 0.2 }}
       >
         <h1>About me</h1>
       </motion.div>

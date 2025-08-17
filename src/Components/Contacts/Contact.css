@@ -13,6 +13,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 50px;
+  text-align: center;
 }
 
 .contact-title p {
@@ -197,14 +198,13 @@ width: 500px;
 
 .contact-right textarea {
   padding: 10px;
-  border: none;
+  border: 1px solid  #4a4a70 ;
   background: #3c3c55aa;
   color: #a0a0a0;
   font-size: 16px;
   border-radius: 5px;
   transition: 0.7s;
   cursor: pointer;
-max-width: 40vw;
  outline: none;
 }
 
@@ -239,42 +239,64 @@ max-width: 40vw;
 }
 
 @media (max-width: 770px) {
+
+  .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    flex-direction: column;
+  }
   .contact-title h1 {
     font-size: 43px;
-    min-width: 200px;
-    width: 100vw;
-    margin-left: 60px;
+    
+   min-width: 300px;
+   
+    text-align: center;
   }
 .contact-title p{
   font-size: 15px;
-  margin-left: 70px;
+ text-align: center;
 }
   .contact-section {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    margin-top: 60px;
+    /* margin-top: 60px; */
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    
   }
 
  .contact-left{
   display: flex;
   flex-direction: column;
-  gap:10px
+  justify-content: center;
+  align-items: center;
+ width: 100vw;
+  margin: 10px 0px;
  
   
  }
 
  .secondContactBox{
-width: 70vw;
+  
+  margin: auto;
+width: 78vw;
  height: 350px;
- gap:10px
+ gap:10px;
+ min-height: 350px;
  }
 
 
   .contact-right {
-width:80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width:78vw;
 height: 350px;
 margin-top: 30px;
+margin: 10px 0px;
   }
 
   .contact-right label {
@@ -284,7 +306,7 @@ margin-top: 30px;
   }
 
   .contact-right input {
-    border: none;
+   
     width: 75vw;
     margin-right: 5px;
     padding: 12px;
@@ -296,23 +318,25 @@ margin-top: 30px;
   }
 
   .contact-right textarea {
-   width: 100vw;
-    padding: 30px 50px;
-    border: none;
-    background: #32323c;
+  
+    padding: 15px 50px;
+  
+    margin-right: 5px;
+    background: #1b1b25;
     color: #a0a0a0;
     font-size: 15px;
     border-radius: 5px;
 
+
   }
 
   .contact-right button{
-    padding: 5px;
+    padding: 8px;
   }
   .contact-submit {
-    padding: 5px 20px;
-    font-size: 16px;
-    width: 50vw;
+    padding: 8px 15px;
+    font-size: 15px;
+    width: 80vw;
     
   }
 }

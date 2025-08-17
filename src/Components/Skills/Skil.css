@@ -42,7 +42,7 @@
   display: flex;
   flex-wrap: wrap;
   border-radius: 10px;
-  gap: 20px;
+  gap: 10px;
   box-shadow: 2px 2px 5px rgb(1, 29, 53);
   transition: 0.3s;
 }
@@ -128,24 +128,17 @@
   .skill_container {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    margin: 10px 20px;
-    
-    width: 100%;
-     margin-top: 80px;
+    gap: 30px;
+    margin: 10px 0px;
+    width: 100vw;
+     margin-top: 60px;
   }
-.skills{
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-  width: 100%;
-}
+
 
   .skills h1{
-      font-size: 33px;
-    width:100vw;
-    margin-right: 30px;
+      font-size: 40px;
+    /* width:100vw; */
+  text-align: center;
    margin-top: 100px;
   
    
@@ -153,38 +146,41 @@ align-items: center;
 .skills p{
   text-align: center;
   width: 100vw;
-  font-size: 19px;
- margin-right: 60px;
+  font-size: 18px;
   font-weight: 600;
 }
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
   .frontEnd-container {
     margin-top: 10px;
-    width: 70vw;
+    width: 78vw;
   flex-wrap: wrap;
   min-height: 250px;
-  margin-right: 10px;
+ 
   }
 
  
 
   .backend-container {
-    width: 70vw;
+      width: 78vw;
     min-height: 250px; 
-    margin-right: 80px;
+    
   }
 
   .tools-container {
-    width: 70vw;
+     width: 78vw;
     flex-wrap: wrap;
     min-height: 250px;
   }
 
  
 
-  .main-container {
-    display: flex;
-  margin-right: 20px;
-  flex-direction: column;
-    margin: 10px;
-  }
+ 
 }

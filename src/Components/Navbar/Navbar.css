@@ -9,14 +9,13 @@
   background-color: rgba(0, 0, 0, 0.733);
   backdrop-filter: blur(50px);
   padding: 14px 10px;
-  border-radius: 12px;
+  border-radius: 2px;
   box-shadow: 0px 0.2px 2px orange;
   cursor: pointer;
 }
 
 .nav-menu {
   margin-right: 40px;
- 
 }
 
 .modeBtn {
@@ -31,7 +30,7 @@
   cursor: pointer;
   transition: 0.3s;
   background-color: transparent;
-  border: 1px solid rgb(255, 166, 0);
+  border: 1.2px dotted rgb(255, 166, 0);
   outline: none;
   border-radius: 5px;
 }
@@ -95,13 +94,13 @@
   right: -100%;
   width: 200px;
   height: 50vh;
-  background: rgb(1, 31, 58);
-cursor: pointer;
-  padding: 60px 20px;
-  transition: left 0.5s;
-  transition-duration: 5s;
+  background: rgba(0, 44, 83, 0.895);
+  cursor: pointer;
+  padding: 40px 20px;
+  transition: left 5s;
+  /* transition-duration: 5s; */
   border-radius: 10px;
-z-index: 10;
+  z-index: 10;
 }
 
 .side-menu.show {
@@ -124,6 +123,7 @@ z-index: 10;
 .navbar:hover {
   box-shadow: 2px 0.3px 5px rgba(4, 4, 176, 0.548);
   opacity: 0.5;
+  cursor: pointer;
   /* background: linear-gradient(135deg, #000000, rgba(2, 2, 53, 0.979)); */
 }
 
@@ -157,7 +157,7 @@ z-index: 10;
 
   .menu-btn {
     display: block;
-    border: 1px solid orange;
+   border: 1.3px dotted rgb(255, 166, 0);
     font-size: 18px;
     border-radius: 3px;
     margin-right: 20px;
@@ -167,7 +167,7 @@ z-index: 10;
     position: fixed;
     right: 60px;
     display: block;
-    border: 1px solid orange;
+     border: 1.3px dotted rgb(255, 166, 0);
     border-radius: 5px;
     font-size: 18px;
   }

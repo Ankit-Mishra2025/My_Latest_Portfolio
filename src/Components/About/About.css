@@ -15,7 +15,7 @@
   font-size: 50px;
   font-weight: 700;
   background-color: aliceblue;
-  margin-left: 50px;
+text-align: center;
 }
 
 .about-section {
@@ -363,40 +363,21 @@ transition: 0.5s;
   .about-section {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
   }
 
-  .about-left {
-    display: flex;
-  }
+ 
 
-  .who {
+  .who,.what,.approach,.coreValue {
     height: 230px;
     width: 90vw;
-    margin-left: 10px;
+   
   }
 
-  .what {
-    height: 230px;
-    /* min-height: 225px; */
-    width: 90vw;
-    margin-left: 10px;
-  }
 
-  .approach {
-    height: 230px;
-    min-height: 225px;
-    width: 90vw;
-    margin-left: 10px;
-  }
-
-  .coreValue {
-    height: 230px;
-    min-height: 225px;
-    width: 90vw;
-    margin-left: 10px;
-  }
+ 
   .coreValue p {
     font-size: 16px;
     margin-top: 10px;
@@ -405,24 +386,23 @@ transition: 0.5s;
   .about-right {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .aboutAchievment {
-    display: flex;
-    flex-direction: column;
     width: 90vw;
     height: 350px;
-    padding-left: 10px;
+   
   }
   .allAchievments {
     display: flex;
     gap: 5px;
   }
+
   .certify {
     height: 260px;
-    min-height: 225px;
     width: 90vw;
-    margin-left: 10px;
     gap: 15px;
     display: flex;
     flex-direction: column;
@@ -433,7 +413,7 @@ transition: 0.5s;
     flex-direction: column;
     width: 90vw;
     height: 350px;
-    margin-left: 10px;
+   
   }
   .currentLearnings {
     display: flex;

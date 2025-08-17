@@ -10,10 +10,10 @@ const Project = () => {
       <div className="projects" id="projects">
         <motion.div
           className="projects-title"
-          initial={{ x: 50, y: -50, opacity: 0 }}
-          whileInView={{ y: 0, x: 0, opacity: 1 }}
-          transition={{ duration: 0.8, ease: easeInOut }}
-          viewport={{ once: false, amount: 0.2 }}
+          // initial={{ x: 50, y: -50, opacity: 0 }}
+          // whileInView={{ y: 0, x: 0, opacity: 1 }}
+          // transition={{ duration: 0.8, ease: easeInOut }}
+          // viewport={{ once: false, amount: 0.2 }}
         >
           <h1>My Latest Projects</h1>
         </motion.div>

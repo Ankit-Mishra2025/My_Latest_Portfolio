@@ -69,8 +69,8 @@ const Hero = () => {
             </button>
            
             <button className="heroResume">
-<a href="./AMD resume.pdf" target="_blank" > <i class="fas fa-file-download"></i> </a>
-           My Resume </button>
+<a href="/AMD latest resume.pdf" target="_blank"  class=""> <i class="fas fa-file-download"></i> My Resume</a>
+          </button>
             
             <button className="viewProject">
  <AnchorLink offset={50} href="#projects">
