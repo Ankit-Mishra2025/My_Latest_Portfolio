@@ -86,7 +86,7 @@ const Footer = () => {
               <p>Modern web application using frameworks</p>
             </div>
             <div className="hoverServices">
-              {" "}
+            
               <h2>Front-End & UI/UX Design</h2>
               <p>Craft and design smooth and pixels perfect design</p>
             </div>

@@ -37,8 +37,11 @@ const Skil = () => {
             {Frontend.map((image, index) => {
               return (
                 <div className="frontend-skill" key={index}>
+                 <div className="skillTitles">
+ <img src={image.s_img} />
+                  <p>{image.s_title}</p>
+                 </div>
                  
-                  <img src={image.s_img} />
                 </div>
               );
             })}
@@ -48,7 +51,12 @@ const Skil = () => {
             {Backend.map((image, index) => {
               return (
                 <div className="backend-skill" key={index}>
-                  <img src={image.s_img} />
+                  <div className="skillTitles">
+<img src={image.s_img} />
+                  <p>{image.s_title}</p>
+                  </div>
+
+                  
                 </div>
               );
             })}
@@ -58,7 +66,12 @@ const Skil = () => {
             {Tools.map((image, index) => {
               return (
                 <div className="tools" key={index}>
-                  <img src={image.s_img} />
+                  <div className="skillTitles">
+<img src={image.s_img} />
+                  <p>{image.s_title}</p>
+                  </div>
+
+                  
                 </div>
               );
             })}

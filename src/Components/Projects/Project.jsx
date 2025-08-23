@@ -15,7 +15,7 @@ const Project = () => {
           // transition={{ duration: 0.8, ease: easeInOut }}
           // viewport={{ once: false, amount: 0.2 }}
         >
-          <h1>My Latest Projects</h1>
+          <h1>Featured Projects</h1>
         </motion.div>
 
         <div className="projects-container">

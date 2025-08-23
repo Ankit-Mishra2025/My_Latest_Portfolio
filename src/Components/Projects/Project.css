@@ -8,7 +8,7 @@
 }
 
 .projects-title h1 {
-  font-size: 50px;
+  font-size: 45px;
   background: linear-gradient(264deg, #da7c25 20.09%, #b923e1 106.28%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -129,10 +129,18 @@
 }
 
 @media (max-width: 770px) {
+
+.projects-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
   .projects-title h1 {
-    font-size: 42px;
+    font-size: 32px;
     text-align: center;
-   width: 100vw;
+   min-width:300px ;
    margin-top: 100px;
   }
 

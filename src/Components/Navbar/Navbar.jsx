@@ -72,6 +72,14 @@ const Navbar = () => {
                 Contact
               </AnchorLink>
             </li>
+
+            <li>
+  <a href="./AMD latest resume.pdf" className="navResume">
+          <i class="fas fa-file-download"></i>Hire Me / Resume
+            </a>
+            </li>
+          
+           
           </ul>
 
           <button onClick={handleNav} className="menu-btn">

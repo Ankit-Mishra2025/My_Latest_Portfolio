@@ -15,17 +15,36 @@
     color: white;
 } */
 
+:root{
+  --scroll-color:blue
+}
 
-body,html{
+body{
   /* margin: 0;
   padding: 0; */
   background-color: rgb(1, 7, 13);
   backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+ 
   color: white;
   font-family: "Segoe UI", sans-serif;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
+
+body::-webkit-scrollbar {
+  width: 8px; /* scrollbar width */
+  background-color: rgb(1, 57, 107);
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent; /* track background */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-color); /* scrollbar thumb color (blue) */
+  border-radius: 4px;
+}
+
 
 
 body.light .navbar {
@@ -61,14 +80,14 @@ body.light .left_hero > p {
 
 body.light .left_hero h1 {
   color: black;
-  font-size: 60px;
-  font-size: 700;
+  font-size: 45px;
+  font-size: 650;
 }
 
 body.light .left_hero h2{
   color: black;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 50px;
 }
 body.light .para h4{
   color:black;

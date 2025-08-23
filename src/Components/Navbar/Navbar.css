@@ -1,11 +1,12 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   width: 100%;
   position: sticky;
   top: 0px;
-  z-index: 10;
+  /* z-index: 10; */
+ 
   background-color: rgba(0, 0, 0, 0.733);
   backdrop-filter: blur(50px);
   padding: 14px 10px;
@@ -15,18 +16,18 @@
 }
 
 .nav-menu {
-  margin-right: 40px;
+  margin-right: 30px;
 }
 
 .modeBtn {
   display: flex;
-  width: 25px;
-  height: 28px;
+  width: 35px;
+  height: 35px;
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 23px;
-  right: 20px;
+  top: 20px;
+  right: 40px;
   cursor: pointer;
   transition: 0.3s;
   background-color: transparent;
@@ -36,7 +37,7 @@
 }
 
 .modeBtn i {
-  font-size: 19px;
+  font-size: 23px;
   color: white;
 }
 
@@ -85,6 +86,9 @@
   cursor: pointer;
   display: none;
   transition: 0.3s;
+  height: 28px;
+  width: 27px;
+  border-radius: 5px;
 }
 
 /* Sidebar for mobile */
@@ -131,12 +135,31 @@
   display: flex;
   align-items: center;
   list-style-type: none;
-  gap: 35px;
-  font-size: 16px;
-  padding: 0px 20px;
+  gap: 30px;
+  font-size: 18px;
+  padding: 0px 50px;
   transition: 0.3s;
   font-weight: 300;
 }
+ 
+ .navResume{
+ 
+  text-decoration: none;
+background: linear-gradient(270deg, #da7c25 0.36%, #b923e1 100%);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 400;
+  border-radius: 5px;
+} 
+
+
 
 .nav-menu .anchorLink {
   display: flex;
