@@ -192,7 +192,7 @@
 }
 
 .contactHover:hover {
-  padding: 5px 8px;
+  padding: 0px 0.5px;
   /* background-color: rgba(69, 146, 213, 0.292); */
   border-radius: 10px;
   cursor: pointer;

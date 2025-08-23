@@ -15,35 +15,30 @@
     color: white;
 } */
 
-:root{
-  --scroll-color:blue
+body::-webkit-scrollbar{
+  width: 8px;
+  border-radius: 5px;
+  color: blue;
+  background-color: rgb(6, 27, 46);
 }
 
-body{
-  /* margin: 0;
-  padding: 0; */
+
+
+body::-webkit-scrollbar-thumb{
+  background-color: blue;
+}
+
+body,html{
+  margin: 0;
+  padding: 0;
   background-color: rgb(1, 7, 13);
   backdrop-filter: blur(10px);
- 
   color: white;
   font-family: "Segoe UI", sans-serif;
   overflow-x: hidden;
-  overflow-y: scroll;
+ width: 100vw;
 }
 
-body::-webkit-scrollbar {
-  width: 8px; /* scrollbar width */
-  background-color: rgb(1, 57, 107);
-}
-
-body::-webkit-scrollbar-track {
-  background: transparent; /* track background */
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: var(--scroll-color); /* scrollbar thumb color (blue) */
-  border-radius: 4px;
-}
 
 
 
@@ -80,14 +75,14 @@ body.light .left_hero > p {
 
 body.light .left_hero h1 {
   color: black;
-  font-size: 45px;
+  font-size: 40px;
   font-size: 650;
 }
 
 body.light .left_hero h2{
   color: black;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 45px;
 }
 body.light .para h4{
   color:black;

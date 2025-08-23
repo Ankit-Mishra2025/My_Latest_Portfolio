@@ -86,8 +86,8 @@
   cursor: pointer;
   display: none;
   transition: 0.3s;
-  height: 28px;
-  width: 27px;
+  height: 35px;
+  width: 35px;
   border-radius: 5px;
 }
 
@@ -183,8 +183,13 @@ background: linear-gradient(270deg, #da7c25 0.36%, #b923e1 100%);
    border: 1.3px dotted rgb(255, 166, 0);
     font-size: 18px;
     border-radius: 3px;
-    margin-right: 20px;
+    margin-right: 15px;
     cursor: pointer;
+    height: 25px;
+    width: 25px;
+  }
+  .menu-btn i{
+    font-size: 20px;
   }
   .modeBtn {
     position: fixed;
@@ -193,5 +198,11 @@ background: linear-gradient(270deg, #da7c25 0.36%, #b923e1 100%);
      border: 1.3px dotted rgb(255, 166, 0);
     border-radius: 5px;
     font-size: 18px;
+    height: 25px;
+    width: 27px;
+    top:25px;
+  }
+  .modeBtn i{
+    font-size: 21px;
   }
 }
